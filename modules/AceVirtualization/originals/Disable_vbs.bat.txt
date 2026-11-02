@@ -1,0 +1,38 @@
+@echo off
+chcp 936 >nul
+
+:: 自动提升管理员权限
+net session >nul 2>&1
+if %errorlevel% neq 0 (
+    PowerShell -Command "Start-Process '%~s0' -Verb RunAs" >nul
+    exit /b
+)
+
+:: 设置环境变量
+set "SCRIPT_PATH=%~dp0DG_Readiness\DG_Readiness_Tool_v3.6.ps1"
+
+:: 检查脚本存在性
+if not exist "%SCRIPT_PATH%" exit /b 2  :: 资源文件缺失
+
+:: 禁用VBS逻辑
+PowerShell -NoProfile -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force" >nul 2>&1
+PowerShell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_PATH%" -Disable >nul 2>&1
+
+:: 修改注册表项 1
+reg query "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios" /v "EnableVirtualizationBasedSecurity" >nul 2>&1
+if %errorlevel% equ 0 (
+    reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios" /v "EnableVirtualizationBasedSecurity" /t REG_DWORD /d 0 /f >nul
+
+)
+
+:: 修改注册表项 2
+reg query "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\WindowsHello" /v "Enabled" >nul 2>&1
+if %errorlevel% equ 0 (
+    reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\WindowsHello" /v "Enabled" /t REG_DWORD /d 0 /f >nul
+
+)
+
+
+:: 返回状态码：1=成功(需重启)，非0=失败
+if %errorlevel% equ 0 exit /b 1
+exit /b %errorlevel%

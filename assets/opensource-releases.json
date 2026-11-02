@@ -1,0 +1,74 @@
+[
+  {
+    "Id": "localsend",
+    "Repository": "localsend/localsend",
+    "Version": "v1.18.2",
+    "ReleaseUrl": "https://github.com/localsend/localsend/releases/tag/v1.18.2",
+    "Name": "LocalSend-1.18.2-windows-x86-64.zip",
+    "Size": 26113764,
+    "Sha256": "737AAB1829D901E1D798CDDD1E5FDC06BA9DFCC9EA50CFE3805E047005D5E71A"
+  },
+  {
+    "Id": "trafficmonitor",
+    "Repository": "zhongyang219/TrafficMonitor",
+    "Version": "V1.86",
+    "ReleaseUrl": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.86",
+    "Name": "TrafficMonitor_V1.86_x64.zip",
+    "Size": 1471133,
+    "Sha256": "948DDC12CC582E8CF0B7B32E0064544F6F711265A7671C2E47343A6A0FF4908E"
+  },
+  {
+    "Id": "sharex",
+    "Repository": "ShareX/ShareX",
+    "Version": "v21.0.0",
+    "ReleaseUrl": "https://github.com/ShareX/ShareX/releases/tag/v21.0.0",
+    "Name": "ShareX-21.0.0-portable-x64.zip",
+    "Size": 208850419,
+    "Sha256": "8124938FA718D702BB08EF29292F0140052BDAD03D23B3041B5015054FF1C230"
+  },
+  {
+    "Id": "screentogif",
+    "Repository": "NickeManarin/ScreenToGif",
+    "Version": "2.43.2",
+    "ReleaseUrl": "https://github.com/NickeManarin/ScreenToGif/releases/tag/2.43.2",
+    "Name": "ScreenToGif.2.43.2.Portable.x64.zip",
+    "Size": 73035883,
+    "Sha256": "42A0B53D67ECAE22698B4881FFB2C9C7A9049663F5FBDD2EDB779E1971000664"
+  },
+  {
+    "Id": "quicklook",
+    "Repository": "QL-Win/QuickLook",
+    "Version": "4.5.0",
+    "ReleaseUrl": "https://github.com/QL-Win/QuickLook/releases/tag/4.5.0",
+    "Name": "QuickLook-4.5.0.7z",
+    "Size": 62569358,
+    "Sha256": "D1D578DEB75B83EA09255B89382B088D35D38125C0C2B309825B1E20AC962B91"
+  },
+  {
+    "Id": "bcuninstaller",
+    "Repository": "BCUninstaller/Bulk-Crap-Uninstaller",
+    "Version": "v6.3",
+    "ReleaseUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/tag/v6.3",
+    "Name": "BCUninstaller_6.3.0_portable.7z",
+    "Size": 104837088,
+    "Sha256": "1AB75C8FDB88CFC8C05012EF21136F35E7C477BB58B7F69D7D3B4495179C5DC3"
+  },
+  {
+    "Id": "fileconverter",
+    "Repository": "Tichau/FileConverter",
+    "Version": "v2.2",
+    "ReleaseUrl": "https://github.com/Tichau/FileConverter/releases/tag/v2.2",
+    "Name": "FileConverter-2.2-x64-setup.msi",
+    "Size": 60522496,
+    "Sha256": "78BB9755B35A94E59A72F299B6B63B5DA472DEB5C2B03CE016E5FE9F116A3554"
+  },
+  {
+    "Id": "powertoys",
+    "Repository": "microsoft/PowerToys",
+    "Version": "v0.102.2933.0",
+    "ReleaseUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "Name": "PowerToysUserSetup-0.102.2933.0-x64.exe",
+    "Size": 323616208,
+    "Sha256": "EC0FD364AE1689A5E8FBEFB46BAD5C274C7BF0FBE9E828E14C88B44432ADA816"
+  }
+]

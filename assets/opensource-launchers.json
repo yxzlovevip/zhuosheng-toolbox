@@ -1,0 +1,137 @@
+[
+  {
+    "Id": "oss-powertoys",
+    "Name": "PowerToys 效率工具集",
+    "RelativePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "launch",
+    "Arguments": [
+      "--open-settings"
+    ]
+  },
+  {
+    "Id": "oss-localsend",
+    "Name": "LocalSend 手机电脑传文件",
+    "RelativePath": "工具/开源工具/localsend/localsend_app.exe",
+    "PayloadManifest": "工具/开源工具/localsend/payload.json",
+    "PayloadManifestSha256": "F9C31782C527DF578BA4E266AE30FD2D84AA10618FB92CDD2073BFE67866E25B",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-trafficmonitor",
+    "Name": "TrafficMonitor 网速与性能",
+    "RelativePath": "工具/开源工具/trafficmonitor/TrafficMonitor/TrafficMonitor.exe",
+    "PayloadManifest": "工具/开源工具/trafficmonitor/payload.json",
+    "PayloadManifestSha256": "7E827D8E4C0690F4D3A92382DDF08580BFF26F275288DAAA26828A1E20B8D467",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-sharex",
+    "Name": "ShareX 截图与录屏",
+    "RelativePath": "工具/开源工具/sharex/ShareX.exe",
+    "PayloadManifest": "工具/开源工具/sharex/payload.json",
+    "PayloadManifestSha256": "D4B12053B5509AE6435D0699D8B359725175588012BAA6E2E41509AABD1FC4A2",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-screentogif",
+    "Name": "ScreenToGif 动图录制",
+    "RelativePath": "工具/开源工具/screentogif/ScreenToGif.exe",
+    "PayloadManifest": "工具/开源工具/screentogif/payload.json",
+    "PayloadManifestSha256": "CF730E6BDBA41FA441C98F9C2D22746B3F2520DCC951BB383985924E54A56F5F",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-quicklook",
+    "Name": "QuickLook 空格预览",
+    "RelativePath": "工具/开源工具/quicklook/QuickLook.exe",
+    "PayloadManifest": "工具/开源工具/quicklook/payload.json",
+    "PayloadManifestSha256": "5B5EFB5FFDCB68DD6AC7AD6CDD242EBA2FDB8E7F113AC1CCE80940095883EB08",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-bcuninstaller",
+    "Name": "BCUninstaller 批量卸载",
+    "RelativePath": "工具/开源工具/bcuninstaller/win-x64/BCUninstaller.exe",
+    "PayloadManifest": "工具/开源工具/bcuninstaller/payload.json",
+    "PayloadManifestSha256": "67C7D57A40105B4BCF3F30A21771FE7DA3B452312D4C099EF0738612EF63BF56",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "oss-fileconverter",
+    "Name": "File Converter 文件格式转换",
+    "RelativePath": "工具/开源工具/fileconverter/FileConverter.exe",
+    "PayloadManifest": "工具/开源工具/fileconverter/payload.json",
+    "PayloadManifestSha256": "6509C164290F6B3008687ECB1656370720A744F1D01D6F6DCA395887582DFFE6",
+    "Mode": "convert",
+    "Arguments": []
+  },
+  {
+    "Id": "pt-image-resizer",
+    "Name": "图片批量缩小",
+    "RelativePath": "工具/开源工具/powertoys/WinUI3Apps/PowerToys.ImageResizer.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "launch",
+    "Arguments": []
+  },
+  {
+    "Id": "pt-power-rename",
+    "Name": "批量改文件名",
+    "RelativePath": "工具/开源工具/powertoys/WinUI3Apps/PowerToys.PowerRename.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "rename",
+    "Arguments": []
+  },
+  {
+    "Id": "pt-file-locksmith",
+    "Name": "文件占用查询",
+    "RelativePath": "工具/开源工具/powertoys/FileLocksmithCLI.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "lock",
+    "Arguments": []
+  },
+  {
+    "Id": "pt-awake",
+    "Name": "临时防休眠（1 小时）",
+    "RelativePath": "工具/开源工具/powertoys/PowerToys.Awake.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "launch",
+    "Arguments": [
+      "--time-limit",
+      "3600"
+    ]
+  },
+  {
+    "Id": "pt-always-on-top",
+    "Name": "窗口置顶设置",
+    "RelativePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "launch",
+    "Arguments": [
+      "--open-settings=AlwaysOnTop"
+    ]
+  },
+  {
+    "Id": "pt-text-extractor",
+    "Name": "屏幕文字提取设置",
+    "RelativePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "Mode": "launch",
+    "Arguments": [
+      "--open-settings=TextExtractor"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+.build/
+.private/
+**/bin/
+**/obj/
+dist/
+artifacts/
+*.user
+
+# Local tool payloads and packages (maintained separately from source)
+/工具/
+/重装/
+.delivery*/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.msi
+*.msix
+
+# Frontend dependencies and generated assets
+node_modules/
+/assets/web/
+
+# Generated module/test output and local caches
+build-output/
+test-output/
+test-results/
+playwright-report/
+integration-preview/
+*.log
+*_wpftmp.csproj
+.vs/
+.idea/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pfx
+*.p12
+*.key
+*.pem
+!/assets/update-public.pem
+/docs/PROJECT_CONTEXT.sources.json

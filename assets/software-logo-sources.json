@@ -1,0 +1,278 @@
+{
+  "AIDA64": {
+    "sites": [
+      "https://www.aida64.com/"
+    ]
+  },
+  "CPU-Z": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.cpuid.com/medias/images/softwares/cpu-z.svg"
+    ],
+    "sites": []
+  },
+  "GPU-Z": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://tpucdn.com/download/images/37_icon-v1790098647.png"
+    ]
+  },
+  "CrystalDiskInfo": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/hiyohiyo/CrystalDiskInfo/master/resA/DiskInfo.ico"
+    ]
+  },
+  "CrystalDiskMark": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/hiyohiyo/CrystalDiskMark/master/res/DiskMark.ico"
+    ]
+  },
+  "FurMark": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://geeks3d.com/furmark/favicon.ico",
+      "https://geeks3d.com/furmark/i/20240220-furmark-logo-02.png"
+    ]
+  },
+  "BlueScreenView": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.nirsoft.net/utils/bluescreenview_icon.gif"
+    ],
+    "sites": []
+  },
+  "TM5": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://testmem5.com/wp-content/uploads/2025/07/cropped-dram-192x192.png"
+    ]
+  },
+  "系统激活": {
+    "bundled": "tool-icons/activation.png"
+  },
+  "Visual C++ 运行库合集": {
+    "bundled": "tool-icons/runtime.png"
+  },
+  "显卡更新安装工具": {
+    "sites": [
+      "https://www.nvidia.com/"
+    ]
+  },
+  "TranslucentTB": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/TranslucentTB/TranslucentTB/release/AppPackage/Assets-Release/Square44x44Logo.targetsize-256.png"
+    ],
+    "sites": []
+  },
+  "FxSound": {
+    "sites": [
+      "https://www.fxsound.com/"
+    ]
+  },
+  "Riot Client": {
+    "sites": [
+      "https://www.riotgames.com/"
+    ]
+  },
+  "Microsoft - Office": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/9.21.0/icons/microsoftoffice.svg"
+    ]
+  },
+  "WinRAR": {
+    "sites": [
+      "https://www.win-rar.com/"
+    ]
+  },
+  "2345看图王": {
+    "sites": [
+      "https://pic.2345.cc/"
+    ]
+  },
+  "Microsoft Edge": {
+    "sites": [
+      "https://www.microsoft.com/edge/"
+    ]
+  },
+  "HyperV-off": {
+    "bundled": "tool-icons/hyperv.svg"
+  },
+  "联想拯救者 LegionZone": {
+    "sites": [
+      "https://legionzone.lenovo.com/"
+    ]
+  },
+  "游戏加加": {
+    "sites": [
+      "https://gamepp.com/"
+    ]
+  },
+  "7-Zip": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.7-zip.org/7ziplogo.png",
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/7zip.svg"
+    ],
+    "sites": []
+  },
+  "Mozilla Firefox": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/firefoxbrowser.svg"
+    ],
+    "sites": []
+  },
+  "GOG": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.gog.com/favicon.ico",
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/gogdotcom.svg"
+    ],
+    "sites": []
+  },
+  "Nintendo eShop": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.nintendo.com/favicon.ico",
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/nintendo.svg"
+    ],
+    "sites": []
+  },
+  "AMD 驱动下载": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/amd.svg"
+    ],
+    "sites": []
+  },
+  "Gemini": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/googlegemini.svg"
+    ],
+    "sites": []
+  },
+  "Gemini 3 Pro Image": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/googlegemini.svg"
+    ],
+    "sites": []
+  },
+  "OpenAI": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/openai.svg"
+    ],
+    "sites": []
+  },
+  "pexels壁纸": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/pexels.svg"
+    ],
+    "sites": []
+  },
+  "B站直播": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://www.bilibili.com/favicon.ico"
+    ],
+    "sites": []
+  },
+  "DiskGenius": {
+    "ignoreOriginal": true,
+    "images": [],
+    "sites": [
+      "https://www.diskgenius.cn/",
+      "https://www.diskgenius.com/"
+    ],
+    "bundled": "tool-icons/diskgenius.png"
+  },
+  "显卡天梯榜": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://img.expreview.com/explogo.svg"
+    ]
+  },
+  "CPU天梯榜": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://img.expreview.com/explogo.svg"
+    ]
+  },
+  "电源天梯榜": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://img.expreview.com/explogo.svg"
+    ]
+  },
+  "360驱动": {
+    "ignoreOriginal": true,
+    "images": [],
+    "sites": [
+      "https://dm.weishi.360.cn/home.html",
+      "https://dm.weishi.360.cn/",
+      "https://www.360.cn/"
+    ]
+  },
+  "键盘按键测试工具": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://hub.meetkb.com/assets/meetkb-BvSGP2Io.ico"
+    ]
+  },
+  "VGN HUB": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://vgnlab.com/cdn/shop/files/favicon_32x32.png?v=1745388000"
+    ]
+  },
+  "DDU": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://raw.githubusercontent.com/Wagnard/display-drivers-uninstaller/WPF/display-driver-uninstaller/Display%20Driver%20Uninstaller/DDU.ico"
+    ]
+  },
+  "动漫共和国": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://animerepublic.cn/logo.jpg"
+    ]
+  },
+  "Clawdbot": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://openclaw.ai/favicon.svg"
+    ]
+  },
+  "手柄测试": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://ds.daidr.me/pwa/apple-touch-icon.png"
+    ]
+  },
+  "Wallpaper Engine": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://shared.akamai.steamstatic.com/community_assets/images/apps/431960/72edaed9d748c6cf7397ffb1c83f0b837b9ebd9d.jpg"
+    ]
+  },
+  "MSI Afterburner": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://storage-asset.msi.com/event/2020/vga/AfterburnerNew/images2/af-icon.png"
+    ],
+    "background": "#202a3b"
+  },
+  "浏览器助手": {
+    "ignoreOriginal": true,
+    "images": [
+      "https://store-images.s-microsoft.com/image/apps.60675.6444a728-3330-4c87-87e5-279c38b7ffca.de942327-fb26-4f2c-b887-0db62e902641.a0803a63-5ca3-490e-98c5-33b25f2ceaf1"
+    ]
+  }
+}

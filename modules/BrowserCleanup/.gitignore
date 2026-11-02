@@ -1,0 +1,5 @@
+build-output/
+test-output/
+integration-preview/
+tests/bin/
+tests/obj/

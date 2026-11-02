@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>CZOpenSourceTools</AssemblyName><PublishSingleFile>true</PublishSingleFile><SelfContained>true</SelfContained><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><RuntimeIdentifier>win-x64</RuntimeIdentifier><DebugType>none</DebugType><ApplicationIcon>../../assets/toolbox.ico</ApplicationIcon></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../../src/Toolbox.Core/Toolbox.Core.csproj"/><EmbeddedResource Include="../../assets/opensource-launchers.json" LogicalName="launchers.json"/></ItemGroup>
+</Project>

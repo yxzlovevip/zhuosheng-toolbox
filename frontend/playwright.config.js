@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests',timeout:30000,workers:1,reporter:'list',use:{baseURL:'http://127.0.0.1:'+(process.env.CZ_UI_TEST_PORT||5174),viewport:{width:1380,height:860},launchOptions:{channel:'msedge'}},webServer:{command:'node test-server.cjs',url:'http://127.0.0.1:'+(process.env.CZ_UI_TEST_PORT||5174),reuseExistingServer:true}});

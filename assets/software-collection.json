@@ -1,0 +1,6962 @@
+{
+  "updatedAt": "2026-10-22",
+  "sources": [
+    {
+      "id": "local",
+      "name": "工具大合集",
+      "file": "工具大合集.html",
+      "entries": 102,
+      "sha256": "9d943136c893f86a3bf4114e3f602b6bf7e1bf868e9c970690064f87ff4ba069"
+    },
+    {
+      "id": "website",
+      "name": "装机必备软件库",
+      "url": "http://qiufengjiema.cc.cd/",
+      "entries": 242,
+      "sha256": "629998fb3897195ee46166ad09c97185a845077d8aaeaa174de58659eb622d75"
+    }
+  ],
+  "categories": [
+    "常用工具",
+    "浏览器",
+    "聊天通讯",
+    "影音娱乐",
+    "办公学习",
+    "网盘下载",
+    "游戏平台",
+    "游戏加速",
+    "远程控制",
+    "驱动工具",
+    "硬件检测",
+    "系统维护",
+    "AI 工具",
+    "直播录屏",
+    "壁纸美化",
+    "资源导航",
+    "历史显卡驱动"
+  ],
+  "corrections": [
+    {
+      "name": "TT语音",
+      "original": "https://pc-cdn.52tt.com/packages/tt-light/MS42LjNAMjY0Mw/official/tt-light.apk",
+      "replacement": "https://www.52tt.com/"
+    },
+    {
+      "name": "GIGABYTE Control Center",
+      "original": "https://consumer-tkb.huawei.com/weknow/servlet/download/public?contextNo=W00037337&view=true",
+      "replacement": "https://www.gigabyte.com/Consumer/Software/GIGABYTE-Control-Center/global/"
+    },
+    {
+      "name": "酷我音乐",
+      "original": "https://download.kugou.com/",
+      "replacement": "https://www.kuwo.cn/static/page/downloadPage/index.html"
+    },
+    {
+      "name": "逆水寒",
+      "original": "https://df.qq.com/index.shtml",
+      "replacement": "https://n.163.com/download/"
+    },
+    {
+      "name": "测速网",
+      "original": "https://www.baidu.com",
+      "replacement": "https://www.speedtest.cn/"
+    },
+    {
+      "name": "NVIDIA 537.42 驱动",
+      "original": "https://www.nvidia.cn/download/driverResults.aspx/211817/cnGeForce/www.linkedin.com",
+      "replacement": "https://www.nvidia.cn/download/driverResults.aspx/211817/cn/"
+    },
+    {
+      "name": "NVIDIA 552.22 驱动",
+      "original": "https://www.nvidia.com/download/driverResults.aspx/224155/en-us/Buradan/",
+      "replacement": "https://www.nvidia.com/download/driverResults.aspx/224155/en-us/"
+    },
+    {
+      "name": "NVIDIA 552.22 驱动",
+      "original": "https://www.nvidia.com/download/driverResults.aspx/224155/en-us/Buradan/",
+      "replacement": "https://www.nvidia.com/download/driverResults.aspx/224155/en-us/"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "本网站的新版UI",
+      "reason": "原网站自身的页面切换入口，不属于软件条目。"
+    }
+  ],
+  "items": [
+    {
+      "id": "software-009bab43313b07c4",
+      "name": "2345看图王",
+      "description": "全新纯净版本",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-0423f7b9546bed81",
+          "url": "https://huajin.lanzoul.com/iznbS33bqkdc",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f5241e6ee896247f",
+      "name": "360压缩",
+      "description": "压缩解压一键处理，助力办公安全省时",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-5570cba92b069b80",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360zip_yqlm_327419.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-dfb448d49a70a698",
+      "name": "7-Zip",
+      "description": "压缩解压",
+      "category": "常用工具",
+      "aliases": [
+        "7-zip",
+        "7-Zip压缩解压"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-810c026c52882b3d",
+          "url": "https://7-zip.org/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "checked",
+            "checkedAt": "2026-10-24",
+            "evidenceUrl": "https://7-zip.org/",
+            "note": "已打开作者主页并核对产品及下载入口；未下载或扫描文件。"
+          }
+        },
+        {
+          "id": "link-da54eed2fb3a54e3",
+          "url": "https://www.7-zip.org/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b69c82fe58aab287",
+      "name": "火绒应用商店",
+      "description": "应用商店",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-16771914b93c8259",
+          "url": "https://www.huorong.cn/app_store.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b876fc7cc478585a",
+      "name": "联想应用商店",
+      "description": "应用商店",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-29cea86869f90eba",
+          "url": "https://lestore.lenovo.com/about",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-6e2676e48fe8df66",
+      "name": "浏览器助手",
+      "description": "浏览器主页拦截文件",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-01fe44c048adba4d",
+          "url": "https://microsoftedge.microsoft.com/addons/detail/ofnpineagcechhhknchihfnpphpbcnai",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "third-party",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-9a5a65200cba7471",
+      "name": "美图秀秀",
+      "description": "P图抠图拼图证件照制作",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-031fac34d0e18562",
+          "url": "https://pc.meitu.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-218cf8b3b855c6b4",
+      "name": "搜狗拼音输入法",
+      "description": "更简洁 更智能",
+      "category": "常用工具",
+      "aliases": [
+        "搜狗输入法"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2463c9136ae6088f",
+          "url": "https://shurufa.sogou.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-55aed97511fb3080",
+          "url": "https://pinyin.sogou.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-825f49e6a3ef6a78",
+          "url": "https://shurufa.sogou.com/windows",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-af15a125d6524e11",
+      "name": "搜狗五笔输入法",
+      "description": "畅快表达",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-df2c507809fbcc9f",
+          "url": "https://wubi.sogou.com/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-07975bdfda8f4aa4",
+      "name": "微信输入法",
+      "description": "微信官方出品的中文输入法",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-f7ab6c3e76974925",
+          "url": "https://download.z.weixin.qq.com/app/win/wetype_installer_official_p_48.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-02391c929763f98b",
+      "name": "Bandizip",
+      "description": "一款可靠和快速的压缩软件",
+      "category": "常用工具",
+      "aliases": [
+        "Bandizip解压缩"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-9eeb06a2a9b2ab1c",
+          "url": "https://www.bandisoft.com/bandizip/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-471e2e71b6f6a394",
+          "url": "https://bandisoft.okconnect.cn/bandizip/BANDIZIP-SETUP-STD-X64.EXE",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-75304cf77db08b6e",
+      "name": "Everything",
+      "description": "号称地球搜索最快工具",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-dddfa58b5fe7866f",
+          "url": "https://www.voidtools.com/zh-cn/support/everything/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "checked",
+            "checkedAt": "2026-10-24",
+            "evidenceUrl": "https://www.voidtools.com/zh-cn/support/everything/",
+            "note": "已打开发布者的 Everything 说明页；未下载或扫描文件。"
+          }
+        },
+        {
+          "id": "link-c8a77fa7e660afa2",
+          "url": "https://www.voidtools.com/zh-cn/downloads/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "checked",
+            "checkedAt": "2026-10-24",
+            "evidenceUrl": "https://www.voidtools.com/zh-cn/downloads/",
+            "note": "已核对下载页中的产品与 Windows 下载入口；未验证下载文件。"
+          }
+        },
+        {
+          "id": "link-27007623958eb77b",
+          "url": "http://softdl.360tpcdn.com/auto/20230529/104354922_5036e609163e98f3ac06d5e82b677df8.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "third-party",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0a09e0cdf08d7b96",
+      "name": "FxSound",
+      "description": "音效增强神器",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-fdd39d757567149e",
+          "url": "https://github.com/fxsound2/fxsound-app/releases/download/latest/fxsound_setup.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-51ca94fff4c33d40",
+      "name": "Geek Uninstaller",
+      "description": "高效简洁的卸载工具",
+      "category": "常用工具",
+      "aliases": [
+        "Geek"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f636f1bf69f682cb",
+          "url": "https://geekuninstaller.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "checked",
+            "checkedAt": "2026-10-24",
+            "evidenceUrl": "https://geekuninstaller.com/",
+            "note": "已打开产品主页并核对下载导航；未下载或扫描文件。"
+          }
+        },
+        {
+          "id": "link-a2e98e377244db24",
+          "url": "https://geekuninstaller.com/geek.zip",
+          "type": "file",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-0e1ae1e9093541ef",
+          "url": "https://www.lanzoul.com/iIdNV33i4eib",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d93241e7b8bcde97",
+      "name": "Honeyview",
+      "description": "免费图像查看器",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-b55df20b5e7034c6",
+          "url": "https://www.bandisoft.com/honeyview/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-503b1b87ecb4355d",
+      "name": "PixPin",
+      "description": "截图、录屏、OCR - 一款快速灵活的工具",
+      "category": "常用工具",
+      "aliases": [
+        "Pixpin"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-25c8c57eff11af70",
+          "url": "https://pixpin.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8c32605144b91c59",
+      "name": "WinRAR",
+      "description": "压缩解压软件",
+      "category": "常用工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-4a31c683d6be99d6",
+          "url": "https://apps.microsoft.com/detail/xpdfdbjh9cqp5l?hl=zh-cn&gl=CN",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-2c32a76a892a99ca",
+      "name": "360安全浏览器",
+      "description": "全新AI升级·Chromium132内核",
+      "category": "浏览器",
+      "aliases": [
+        "360浏览器"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-713ff5ced457a5cd",
+          "url": "https://browser.360.cn/se/channel_2.html?package=sembg100258&msclkid=38cb76ac329414b3987a1f0dc2f1f2fb",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-67b143a3b1f91815",
+          "url": "https://browser.360.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-6c6e1b6b4f64f35b",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360se+327419+n06157c8a9b.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-fca3191fd4230161",
+      "name": "360极速浏览器",
+      "description": "速度快、超丝滑、功能丰富，好看、更好用",
+      "category": "浏览器",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-fad7a40c20e2b380",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360cse+327419+n06157c8a9b.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5f867ac3c3d94012",
+      "name": "360极速浏览器X",
+      "description": "速度快、超丝滑、功能丰富，好看、更好用",
+      "category": "浏览器",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-bcc1e511f7b71adc",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360csex+327419+n06157c8a9b.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d841009581b03674",
+      "name": "夸克浏览器",
+      "description": "夸克AI超级框 - 升级深度研究",
+      "category": "浏览器",
+      "aliases": [
+        "夸克"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-97cefb0ee3be9d5c",
+          "url": "https://www.quark.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-762e60c32be87453",
+          "url": "https://umcdn.quark.cn/download/37212/quarkpc/pcquark@sem_pinzhuanbdsempckk/QuarkPC_V4.3.5.483_pc_pf30002_(zh-cn)_release_(Build2374249-250817195711-x64).exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0e99a87ff0da91ab",
+      "name": "Google Chrome",
+      "description": "专为您而打造的浏览器",
+      "category": "浏览器",
+      "aliases": [
+        "谷歌浏览器",
+        "谷歌Chromium浏览器"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-b24e1c0681f0529d",
+          "url": "https://www.google.cn/chrome/index.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-9cc8c6489d5f8273",
+          "url": "https://www.google.cn/intl/zh-CN/chrome/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-951e7f89043186ca",
+      "name": "Microsoft Edge",
+      "description": "微软官方浏览器",
+      "category": "浏览器",
+      "aliases": [
+        "Edge"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-7aa72efaa9b1d510",
+          "url": "https://www.microsoft.com/en-us/edge/download",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-fadc2e876c1d1191",
+          "url": "https://www.microsoft.com/zh-cn/edge",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-85d22a31be8ceec6",
+          "url": "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=zh-cn&brand=M100",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-acc08972fddf56f3",
+      "name": "Mozilla Firefox",
+      "description": "火狐浏览器",
+      "category": "浏览器",
+      "aliases": [
+        "火狐浏览器"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c5f08ac48bab3c89",
+          "url": "https://www.firefox.com.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7769653ff9e00aa3",
+      "name": "QQ浏览器",
+      "description": "双核浏览器",
+      "category": "浏览器",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f02eba81da566b1c",
+          "url": "https://browser.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ff12a5348a2f2987",
+      "name": "黑盒语音",
+      "description": "玩家开黑大本营",
+      "category": "聊天通讯",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-7c379fb372d7eb45",
+          "url": "https://macc.max-c.com/chat/pc/chat_installer_new_1.46.0.1068.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f3943a7b368154d1",
+      "name": "企业微信",
+      "description": "连接创造价值",
+      "category": "聊天通讯",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-7c53cbe6ea9aa583",
+          "url": "https://work.weixin.qq.com/#indexDownload",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-cbe33913c76117df",
+          "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.41.6006.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-81b430b696435180",
+      "name": "微信",
+      "description": "怀旧x64版架构原汁原味",
+      "category": "聊天通讯",
+      "aliases": [
+        "微信(WeChat)",
+        "微信(WeiXin)"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5932a896098b76e3",
+          "url": "https://pc.weixin.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-2e45a812e4505677",
+          "url": "https://weixin.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-51d0f7a6ff4653ec",
+          "url": "https://083856ba7a2d42df7020bc09bb43e8c1.dlied1.cdntips.net/dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe?mkey=lego_ztc&f=00&sche_type=7&cip=111.74.142.191&proto=https",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-8c4fceb8b7965b28",
+          "url": "https://dldir1v6.qq.com/weixin/Universal/Windows/WeChatWin.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-07c9da9274ac299f",
+      "name": "KOOK",
+      "description": "一个好用的语音沟通工具",
+      "category": "聊天通讯",
+      "aliases": [
+        "KOOK语音"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2cd53625c529a524",
+          "url": "https://www.kookapp.cn/",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d5ed161653467f8b",
+      "name": "OOPZ",
+      "description": "让游戏连接彼此",
+      "category": "聊天通讯",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-f62e48d1d7741aa1",
+          "url": "https://www.oopz.cn/download/xx?v=1755609385",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-2f04a3aa051f1f60",
+      "name": "QQ",
+      "description": "全新NT多端一体架构",
+      "category": "聊天通讯",
+      "aliases": [
+        "腾讯QQNT"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-a822296fd06ae4c8",
+          "url": "https://im.qq.com/pcqq/index.shtml",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-ba70eff642d35521",
+          "url": "https://im.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-a99e3739f0d0f44f",
+          "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.21_250904_x64_01.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-9839395cfe593a68",
+      "name": "QQ 怀旧版",
+      "description": "跨平台的通讯工具",
+      "category": "聊天通讯",
+      "aliases": [
+        "腾讯QQ怀旧版"
+      ],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-3e25501fcda587f9",
+          "url": "https://dldir1.qq.com/qqfile/qq/PCQQ9.7.25/QQ9.7.25.29411.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-6e50f63582bfec61",
+      "name": "TT语音",
+      "description": "专注打造极致开黑体验",
+      "category": "聊天通讯",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f3c5c988fc0811c3",
+          "url": "https://pc.52tt.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-de8f7d9566748de0",
+          "url": "https://www.52tt.com/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ad685730aa2847ca",
+      "name": "YY语音",
+      "description": "全民娱乐的互动平台",
+      "category": "聊天通讯",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-33c3ec6ed48ad008",
+          "url": "https://www.yy.com/yy8",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-a870cf2b6791d8c6",
+          "url": "https://www.yy.com/web/pcyy_download/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-67a67fc05f47b36e",
+      "name": "爱奇艺",
+      "description": "悦享品质",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ee3c061d717a4412",
+          "url": "https://www.iqiyi.com/appstore.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-6bf03bad2b814986",
+          "url": "https://huajin.lanzoul.com/irhsn32xouha",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cfc3d445066f6e83",
+      "name": "哔哩哔哩",
+      "description": "国内知名视频弹幕平台",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ba932e24f4ec0b5c",
+          "url": "https://app.bilibili.com/?spm_id_from=333.1007.0.0",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-87fec361c0ed9dfa",
+          "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-e12d1ae5996b91bb",
+      "name": "动漫共和国",
+      "description": "视频平台",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-db7697332fa603aa",
+          "url": "https://www.dmghg.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d077d0b18e19cd2e",
+      "name": "抖音",
+      "description": "记录美好生活",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-0cf2d96612b3e367",
+          "url": "https://www.douyin.com/downloadpage/pc",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-73a07da77595dfbd",
+          "url": "https://www.douyin.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-3aec472ab86b1d1e",
+          "url": "https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/187155609/6.4.0/win32-ia32/douyin-v6.4.0-win32-ia32-360.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-27f0ed7d7f6373b6",
+      "name": "斗鱼视频",
+      "description": "直播视频",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-449596474cf0ce7d",
+          "url": "https://www.douyu.com/client?tab=client#pc",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-fcdbfc51189fecd5",
+      "name": "虎牙",
+      "description": "直播视频",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-aafed620c7d976eb",
+          "url": "https://www.huya.com/download/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-1afc8bb18decc6dd",
+      "name": "剪映",
+      "description": "抖音推出的影片剪辑软件",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-af74630dc6744c5f",
+          "url": "https://www.jianying.com/web/professional",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-e7a9602fe01c3539",
+          "url": "https://www.capcut.cn/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-21ff4b492ab85fe3",
+      "name": "荐片",
+      "description": "视频平台",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2ef1e74229c62cfc",
+          "url": "https://www.jianpian15.com/#/home",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7d0e8317588d3aec",
+      "name": "酷狗音乐",
+      "description": "就是歌多",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-a4c5910964f132bc",
+          "url": "https://download.kugou.com/dl/kugou_pc",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7920e0816ab9cb7b",
+      "name": "酷我音乐",
+      "description": "音乐播放器",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c37aa35e8dbaa8ce",
+          "url": "https://www.kuwo.cn/static/page/downloadPage/index.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-e240d084b48e4842",
+      "name": "乐视视频",
+      "description": "视频平台",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1592787c220f337e",
+          "url": "https://mobile.le.com/pc",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7df999bb5bbab0b3",
+      "name": "芒果TV",
+      "description": "湖南卫视官方媒体",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-eac3ca288bae44a8",
+          "url": "https://www.mgtv.com/app/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f8cff81f622364ff",
+      "name": "汽水音乐",
+      "description": "抖音官方出品音乐APP",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-da715453d8237077",
+          "url": "https://www.qishui.com/",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ae8557e1e9b76477",
+      "name": "全民K歌",
+      "description": "音乐播放器",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d1d023182b644655",
+          "url": "https://kg.qq.com/index-pc.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-590a5961464ddf6e",
+      "name": "腾讯视频",
+      "description": "海量高清视频",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-29328929ca6158b6",
+          "url": "https://v.qq.com/download.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-bafe018a612739aa",
+          "url": "https://dldir1.qq.com/qqtv/TencentVideo11.131.2290.0.exe?support_redirect=1",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-4a366fb92e537bad",
+      "name": "网易云音乐",
+      "description": "发现好音乐",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-90dd5ea957abbfb3",
+          "url": "https://music.163.com/#/download",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-b726679b95413182",
+          "url": "https://music.163.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-834f8bf34056ce52",
+      "name": "优酷视频",
+      "description": "全网海量优质超清影视资源",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2862f1af11337f83",
+          "url": "https://www.youku.com/ku/product/index",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-00b63fb7bccb3454",
+      "name": "PotPlayer",
+      "description": "视频播放器",
+      "category": "影音娱乐",
+      "aliases": [
+        "potplayer",
+        "Potplayer"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-91b9befa36a9e130",
+          "url": "https://potplayer.tv/?lang=zh_CN",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-fb02109e8ee3695f",
+          "url": "http://potplayer.tv/?lang=zh_TW",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-3ef42060a2e523ab",
+      "name": "QQ音乐",
+      "description": "过亿正版音乐",
+      "category": "影音娱乐",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c1d97b8363b21977",
+          "url": "https://y.qq.com/download/index.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-385c7ab5149268e2",
+          "url": "https://y.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-f17b23d5ede85f01",
+          "url": "https://y.qq.com/download/download.html",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-27389885c97c4ab1",
+      "name": "钉钉",
+      "description": "一种工作方式",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-43e03bee51aaad24",
+          "url": "https://www.dingtalk.com/download",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-45d5192022e48c83",
+          "url": "https://www.dingtalk.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-a0821dd0ada77f12",
+          "url": "https://www.dingtalk.com/download/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7e4419d1de251094",
+      "name": "飞书",
+      "description": "以简驭繁 极致创造",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-adf0e85ffa566312",
+          "url": "https://www.feishu.cn/download",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d1c3beea61012794",
+      "name": "福昕PDF阅读器",
+      "description": "专业PDF阅读与编辑工具",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-00664c4816ff4b89",
+          "url": "https://www.foxitsoftware.cn/pdf-reader/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-28d0c97ef142a408",
+      "name": "腾讯会议",
+      "description": "随时随地高清流畅会议",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-bb5995715739d104",
+          "url": "https://meeting.tencent.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-da2f76408acdad7e",
+          "url": "https://meeting.tencent.com/download/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-43215b26e86d6bff",
+      "name": "腾讯文档",
+      "description": "多人协作的在线文档",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ec47a5b7bd568987",
+          "url": "https://docs.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-c0d92ce284bb64bc",
+          "url": "https://docs.qq.com/home/download/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f64ec9e2161befcc",
+      "name": "网易邮箱大师",
+      "description": "网易邮箱大师，不止是邮箱",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-ae41825bc4ad763c",
+          "url": "https://res.126.net/dl/client/pcmail/dashi/mail5.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-854365934d75e3b3",
+      "name": "Adobe Acrobat",
+      "description": "全球值得信赖的免费 PDF 阅读器",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-be00dda35b3b1fe0",
+          "url": "https://get.adobe.com/cn/reader/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-573dc1a74293cac5",
+      "name": "Microsoft - Office",
+      "description": "Microsoft - 下载 Office",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-e1135dad8cd0d3ef",
+          "url": "https://www.microsoft.com/zh-cn/microsoft-365/get-office-and-microsoft-365-oem-download-page",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-accbbc4e5d81fff0",
+      "name": "WPS Office",
+      "description": "一站式办公服务软件",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ff20c44b7e61ed66",
+          "url": "https://www.wps.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-eea861e52685db0d",
+          "url": "https://huajin.lanzoul.com/iuxcb32xoexa",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-364a6e687b3783df",
+      "name": "Xmind",
+      "description": "优秀的思维导图软件",
+      "category": "办公学习",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-dca3bf54b9c16581",
+          "url": "https://xmind.cn/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-e9665f54d274f44e",
+      "name": "阿里云盘",
+      "description": "不限速，就是快",
+      "category": "网盘下载",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-47a810fea8984a5b",
+          "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-6.8.7.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b5eaa6e7444f6dd7",
+      "name": "百度网盘",
+      "description": "百度推出的一项云存储服务",
+      "category": "网盘下载",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-9bcedc74ba909e1c",
+          "url": "https://pan.baidu.com/disk/cert/download",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-305ce2f2af5316c0",
+          "url": "https://pan.baidu.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-e1d62e0bd0819556",
+          "url": "https://pan.baidu.com/download#win",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d5291dd3ee13f829",
+      "name": "夸克网盘",
+      "description": "AI搜索",
+      "category": "网盘下载",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ed11d19ad13c735f",
+          "url": "https://pan.quark.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-92111080ce536f8e",
+      "name": "迅雷",
+      "description": "化繁为简 更轻快",
+      "category": "网盘下载",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-844c7243a70cf3d4",
+          "url": "https://www.xunlei.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-98fd2f0f8b3288e9",
+          "url": "https://down.sandai.net/thunder11/XunLeiWebSetup12.4.1.3670.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-62fd9231c08a30e5",
+      "name": "5E对战平台",
+      "description": "最专业的CSGO竞技社区",
+      "category": "游戏平台",
+      "aliases": [
+        "5E平台"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-28291256c4c95fda",
+          "url": "https://csgo.5eplay.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-6283c5bc50044a39",
+          "url": "https://arena.5eplay.com/download/latest",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-94fdad775aa66d7b",
+      "name": "暴雪战网",
+      "description": "Battlenet-暴雪架设的对战平台",
+      "category": "游戏平台",
+      "aliases": [
+        "暴雪战网平台",
+        "战网",
+        "Battle.net"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-4cdeca0dc6ab9c02",
+          "url": "https://download.battle.net/zh-tw/desktop",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-04a40e24b4ad6600",
+          "url": "https://www.blizzard.com/zh-cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-44c00a8740a9a1cd",
+          "url": "https://download.battlenet.com.cn/zh-cn/?product=bnetdesk",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-bdf5113bfd806e42",
+      "name": "经典游戏",
+      "description": "所有经典游戏的宝库",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-e90157cb02b12bd5",
+          "url": "https://poki.com/zh/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-2f8f18c6b597fbf2",
+      "name": "雷电模拟器",
+      "description": "免费的安卓模拟器",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-8a60d446e8c88ced",
+          "url": "https://www.ldmnq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-b1b4fc7c29fed63d",
+          "url": "https://lddl01.ldmnq.com/downloader/ldplayerinst9.exe?n=ldplayer9_ld_999_ld.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-633b30ea7a4fc7c3",
+      "name": "逆水寒",
+      "description": "武侠游戏",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-e998778c1701ec5d",
+          "url": "https://n.163.com/download/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-61eafb606a60b84f",
+      "name": "三角洲行动",
+      "description": "射击游戏",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f831bf421455cc87",
+          "url": "https://df.qq.com/index.shtml",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-75859aa1dd45a195",
+      "name": "三角洲行动（国际服）",
+      "description": "新一代战术设计品质标杆",
+      "category": "游戏平台",
+      "aliases": [
+        "三角洲行动[国际服]"
+      ],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-62ad87e6660d303a",
+          "url": "https://www.playdeltaforce.com/download/DeltaForceMiniloader.official.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-4e17325f8ea62dcf",
+      "name": "腾讯手游助手",
+      "description": "安卓模拟器",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1179a613c68be5d2",
+          "url": "https://syzs.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7eeb215d4fc35571",
+      "name": "腾讯游戏",
+      "description": "王者荣耀,和平精英,总有一款适合你",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d70d9e38ee1a678d",
+          "url": "https://game.qq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5f11e954e7eb3e94",
+      "name": "完美世界竞技平台",
+      "description": "完美世界开发的竞技平台",
+      "category": "游戏平台",
+      "aliases": [
+        "完美平台"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-010e582a785132e8",
+          "url": "https://pvp.wanmei.com/",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d5cc13eb9cfcad8c",
+      "name": "网易游戏",
+      "description": "网易在线游戏",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1eff0917a5fcb415",
+          "url": "https://game.163.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-e35ab449900f635e",
+      "name": "无畏契约（国服）",
+      "description": "射击游戏",
+      "category": "游戏平台",
+      "aliases": [
+        "Valorant"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-84080ac838cf5ac1",
+          "url": "https://val.qq.com/download.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-26568e45721c4e69",
+      "name": "夜神模拟器",
+      "description": "安卓模拟器",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1defbd0eec5ebc2a",
+          "url": "https://www.yeshen.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8dc7fb32f616d4a1",
+      "name": "永劫无间",
+      "description": "武侠游戏",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d47223e5a15f4621",
+          "url": "https://www.yjwujian.cn/download/#/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ed6923139ee816c2",
+      "name": "游戏加加",
+      "description": "专业的电竞系统工具",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-024e84c807d1968f",
+          "url": "https://gamepp.com/download.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-678f1b275cb90018",
+          "url": "https://dl.gamepp.com/global/GamePP_International.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-2aa182cd9704e04d",
+      "name": "蒸汽平台",
+      "description": "游戏软件",
+      "category": "游戏平台",
+      "aliases": [
+        "Steam"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-082ecff3bc550aeb",
+          "url": "https://store.steamchina.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-fb2a4edd17f56dd0",
+      "name": "EA",
+      "description": "继Origin平台后开发的最新游戏平台",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-81623e04f6a86dc8",
+          "url": "https://www.ea.com/ea-app?isLocalized=true",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-8ecf09d2d043afc5",
+          "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8710257e833cb13e",
+      "name": "Epic Games",
+      "description": "堡垒之夜开发商成立的游戏平台",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-741082ac273afc12",
+          "url": "https://www.epicgames.com/help/zh-CN/?lang=zh-CN",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-07fd1f364a5696ea",
+          "url": "https://www.epicgames.com/store/zh-CN/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-ae5c326f5758651c",
+          "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-18.8.1.msi",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-1b5731c3f8ab1406",
+      "name": "GameFreer资源网",
+      "description": "永久免费的高质量游戏网站",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-35ac57bd1d40489d",
+          "url": "https://www.gamefreer.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-34722db53246b007",
+      "name": "GOG",
+      "description": "无DRM保护的游戏平台",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-015bc1fb74eae52f",
+          "url": "https://www.gog.com/zh/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f21ea0f474a85c35",
+      "name": "itch.io",
+      "description": "独立游戏平台",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2cb9a3a19d62faef",
+          "url": "https://itch.io/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-187ff4f3dfd7cfac",
+      "name": "MUMU模拟器",
+      "description": "安卓模拟器",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-910f9c4f4d8bc95a",
+          "url": "https://mumu.163.com/bing/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5036375688456347",
+      "name": "Nintendo eShop",
+      "description": "任天堂官方商店",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-e1da3b4ead8e247f",
+          "url": "https://www.nintendoswitch.com.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-dc3c4a10aabdf1cc",
+      "name": "NVIDIA 历史驱动下载",
+      "description": "576.52到372.54",
+      "category": "游戏平台",
+      "aliases": [
+        "Nvidia显卡历史版本"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-dcc5ce94607baf42",
+          "url": "https://www.drvsky.com/nvidia_geforce_driver.htm",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d441f3df39ae9f6c",
+      "name": "PlayStation Store",
+      "description": "PlayStation官方商店",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-421de8124de9b2e7",
+          "url": "https://store.playstation.com/zh-hans-cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-45384d7568ebc148",
+      "name": "QQ游戏大厅",
+      "description": "自我重塑全新改版",
+      "category": "游戏平台",
+      "aliases": [
+        "QQ游戏"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-be8e79437e76420a",
+          "url": "https://act.qqgame.qq.com/a20250904bingweb/index.html?ADTAG=&ifid=1090090131&msclkid=63cfa8d1da77111dd43cc17035824c02",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-904abbe44b465be2",
+          "url": "https://jifendownload.yl234.com/jifen_2345/qqgame_kskinhack_240462.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-dc0c8fae3d54f914",
+      "name": "Riot Client",
+      "description": "拳头游戏国际客户端",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-08a6dfb45f673e47",
+          "url": "https://huajin.lanzoul.com/it7ja1q800bc",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f71a850301976cee",
+      "name": "Steam",
+      "description": "高质量游戏平台",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-882fd7527ef0e2d8",
+          "url": "https://store.steampowered.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-c0a0848b287b2767",
+          "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+          "type": "file",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-117812e2ccd3fc25",
+          "url": "https://media.st.dl.eccdnx.com/client/installer/SteamSetup.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f3e295f05f837f16",
+      "name": "TapTap",
+      "description": "发现好游戏",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-68ea51a34f7a234d",
+          "url": "https://d.taptap.cn/pc/latest/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cc626d1c32c17ccf",
+      "name": "Ubisoft Connect",
+      "description": "育碧推出的跨平台游戏服务生态系统",
+      "category": "游戏平台",
+      "aliases": [
+        "育碧游戏",
+        "Uplay"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-06848c13996055ff",
+          "url": "https://zh-cn.ubisoft.com/ubisoftconnect/download",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-93889325c724c324",
+          "url": "https://store.ubi.com/cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-320ccb78dbcbc533",
+          "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-644ebd64687030e8",
+      "name": "WeGame",
+      "description": "一起更好玩",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d5b8a861ac0db4ff",
+          "url": "https://www.wegame.com.cn/home/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-f03a6eeff78da5da",
+          "url": "https://www.wegame.com.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-2150b7cb0f0203ba",
+          "url": "https://dldir1.qq.com/tgc/wegame/miniloader/WeGameMiniLoader.std.7.06.27.1446.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-df2f91012c221bc2",
+      "name": "Xbox Game Pass",
+      "description": "Xbox游戏订阅服务",
+      "category": "游戏平台",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-b34f06b4579280d9",
+          "url": "https://www.xbox.com/zh-CN/xbox-game-pass",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-02c6dad2a0fc0a94",
+      "name": "暴喵加速器",
+      "description": "速度至上 稳定起飞",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-474b937556eb1405",
+          "url": "https://static.baomiao.cn/upload/20250704113829/app_version/BaoMiaoInstaller_1.4.13_20250703_213353_channel10.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-3cb8cfd584870ea3",
+      "name": "古怪加速器",
+      "description": "可暂停·真加速",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-d954e30ce469a0ae",
+          "url": "https://update-bak.ggkuai.com/download/guguai.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-18f005f37b44ff91",
+      "name": "海豚加速器",
+      "description": "海豚加速·快人一步",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-59c7f68e6571bb23",
+          "url": "https://www.htjsq.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-8cdf1212dde41157",
+          "url": "https://staticx.htjsq.com/upload/20250730170533/app_version/DolphinInstaller_6.4.6_20250728_160005_channel10.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-274de69356e969fb",
+      "name": "雷神加速器",
+      "description": "网络游戏加速工具",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-6623304db8afa6bd",
+          "url": "https://www.leigod.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-0a228d0bd814def4",
+          "url": "https://sfdl.360safe.com/netunion/20140425/73ucYutfwO4PJ3RYag49_327419.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-423832863b531f79",
+      "name": "奇游加速器",
+      "description": "超快加速，随时可暂停",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-525b18f213fb1e17",
+          "url": "https://www.qiyou.cn/",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-bed698d3a213af96",
+      "name": "网易UU加速器",
+      "description": "不止快，还很稳",
+      "category": "游戏加速",
+      "aliases": [
+        "UU加速器"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c8d970c293ca97dc",
+          "url": "https://uu.163.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-3e49a2d4b9471439",
+          "url": "https://adl.netease.com/d/g/uu/c/gw?type=pc",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8c9a688ea9f0bd33",
+      "name": "迅游加速器",
+      "description": "游戏信息实时更新，迅游加速一网打尽",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2e3516a006ce5613",
+          "url": "https://www.xunyou.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-ddf55eed9dade723",
+          "url": "https://partnerdownload.xunyou.com/xunyouclient/install/XunYou8.0.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b9b0de16f2ff5511",
+      "name": "AK加速器",
+      "description": "每天连续14小时免费加速",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-1205697dadfd4da0",
+          "url": "http://www.akspeedy.com/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0aeec0c2b2847dbe",
+      "name": "biubiu加速器",
+      "description": "游戏信息实时更新，迅游加速一网打尽",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-0ea52d0b8b1450ad",
+          "url": "https://www.biubiu001.com/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-47e0f998ba8ffc46",
+      "name": "GI加速器",
+      "description": "高级网络专线 灵活游戏时间",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-7328d4bd91f71802",
+          "url": "https://staticx.gijsq.com/upload/20250809135005/app_version/GIAccelerInstaller_1.5.4_20250807_112116_channel2.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d1e5cbcda64974a2",
+      "name": "GoLink加速器",
+      "description": "专业的游戏加速器 一键加速海量游戏",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-eea19a9ea04a2c9d",
+          "url": "https://www.golink.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-662e373221598096",
+          "url": "https://sfdl.360safe.com/netunion/20140425/golink_yq_327419.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ea188cff4f92f848",
+      "name": "VK加速器",
+      "description": "只做极限延迟效果",
+      "category": "游戏加速",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2643e20b7984df39",
+          "url": "https://www.verykuai.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-2434975d6261ecba",
+          "url": "https://dl.verykuai.com/release/VeryKuaiSetup_full.2.4.3.3.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-09164f7524db9feb",
+      "name": "连连控",
+      "description": "远程控制",
+      "category": "远程控制",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-bc722fb9835362f6",
+          "url": "https://www.asklink.com/zh-CN",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5bfa2b6c952061f7",
+      "name": "网易UU远程",
+      "description": "远程控制",
+      "category": "远程控制",
+      "aliases": [
+        "UU远程"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1f2bd0fce7d7be9b",
+          "url": "https://uuyc.163.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-2743432241b6b134",
+      "name": "向日葵远程控制",
+      "description": "发起和接受控制，提供安全顺畅的体验",
+      "category": "远程控制",
+      "aliases": [
+        "贝锐向日葵远程",
+        "向日葵远程"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-49690e1c1dc21237",
+          "url": "https://sunlogin.oray.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-791dc12f49fdad39",
+          "url": "https://sunlogin.oray.com/product/feat",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-f56ea5f6b99dcce0",
+          "url": "https://client-api.oray.com/softwares/65/download?versionid=2815",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f084e63e6a626890",
+      "name": "AnyDesk",
+      "description": "远程控制",
+      "category": "远程控制",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-28bf2621f190cd00",
+          "url": "https://anydesk.com.cn/zhs/downloads/windows",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-248c803623b9a521",
+      "name": "TeamViewer",
+      "description": "远程控制",
+      "category": "远程控制",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2414cbf8573b0df6",
+          "url": "https://www.teamviewer.com/cn/download/portal/windows/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-79a652504b6ee33c",
+      "name": "ToDesk",
+      "description": "连接稳定不限速",
+      "category": "远程控制",
+      "aliases": [
+        "Todesk"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-65aa65cc86bd2933",
+          "url": "https://www.todesk.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-f606ba98e75454d3",
+          "url": "https://dl.todesk.com/windows/ToDesk_Setup.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-93aea6be3d842af9",
+      "name": "360驱动",
+      "description": "驱动工具",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1a42542f42f4fdcf",
+          "url": "https://dm.weishi.360.cn/home.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-948dc19ae363e103",
+      "name": "戴尔驱动下载",
+      "description": "戴尔官方驱动获取页面",
+      "category": "驱动工具",
+      "aliases": [
+        "Dell(戴尔)驱动官网",
+        "戴尔支持网站"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-9ceffaffba8f3f54",
+          "url": "https://www.dell.com/support/home/zh-cn",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-f8047b4dafade66f",
+          "url": "https://www.dell.com/support/home/zh-cn/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-bf6d2b858d8772a3",
+      "name": "华硕驱动下载",
+      "description": "华硕官方驱动获取页面",
+      "category": "驱动工具",
+      "aliases": [
+        "ASUS(华硕)驱动官网",
+        "华硕下载中心"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1d87d28737790ad3",
+          "url": "https://www.asus.com.cn/support/Download-Center/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-9e4867ce4415014c",
+          "url": "https://www.asus.com.cn/support/download-center/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5107fbade5a686b4",
+      "name": "华为电脑管家",
+      "description": "连接新世界·智慧新体验",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-15880eecd08aca9b",
+          "url": "https://consumer-tkb.huawei.com/weknow/servlet/download/public?contextNo=W00037337&view=true",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cda7361a4681652b",
+      "name": "华为消费者服务",
+      "description": "适配华为PC/平板，驱动与PC Manager同步",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1ce12a512de3ea7a",
+          "url": "https://consumer.huawei.com/cn/support/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0fe7456b158be381",
+      "name": "惠普驱动下载",
+      "description": "惠普官方驱动获取页面",
+      "category": "驱动工具",
+      "aliases": [
+        "HP(惠普)驱动官网",
+        "惠普客户支持"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-676d6d97a7b91da8",
+          "url": "https://support.hp.com/cn-zh",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-cea109f6dd2c35ac",
+          "url": "https://support.hp.com/cn-zh/drivers",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-90a5e099dec62ce7",
+      "name": "技嘉驱动下载",
+      "description": "技嘉科技官方下载网站",
+      "category": "驱动工具",
+      "aliases": [
+        "GiGabyte(技嘉)驱动官网",
+        "GIGABYTE"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-8ead9e762daf9b25",
+          "url": "https://www.gigabyte.cn/Consumer/Software/GIGABYTE-Control-Center/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-5a18dc40061b6a33",
+          "url": "https://www.gigabyte.cn/Support/Consumer/Download",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5ebeb6e98fb3bf75",
+      "name": "雷蛇驱动",
+      "description": "外设驱动",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-b16ed5a703dbc390",
+          "url": "https://cn.razerzone.com/synapse-4",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-254d2a2cde6340de",
+      "name": "联想驱动下载",
+      "description": "联想官方驱动获取页面",
+      "category": "驱动工具",
+      "aliases": [
+        "Lenovo(联想)驱动官网",
+        "联想驱动下载中心"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1e7d069b0fd28b50",
+          "url": "https://newsupport.lenovo.com.cn/driveDownloads_index.html",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7428cbabfd7b878d",
+      "name": "联想拯救者 LegionZone",
+      "description": "拯救者的专属设备控制中心",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-e900a7d379d69179",
+          "url": "https://smartdl.lenovo.com.cn/lzupdate/forhome/LZSetup.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-170a9f1916f92670",
+      "name": "罗技 G HUB",
+      "description": "罗技G HUB 游戏软件",
+      "category": "驱动工具",
+      "aliases": [
+        "罗技 G-Hub 游戏驱动",
+        "罗技驱动"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-67936988f3a43bf0",
+          "url": "https://www.logitechg.com/zh-cn/innovation/g-hub.html#devices",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-0fe7bf39f317667e",
+          "url": "https://download.logitech.com.cn/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7d2a9f77117f83c2",
+      "name": "七彩虹驱动下载",
+      "description": "七彩虹官方下载网站",
+      "category": "驱动工具",
+      "aliases": [
+        "Colorful(七彩虹)驱动官网",
+        "七彩虹驱动"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-3bcd8780cf33f224",
+          "url": "https://www.colorful.com.cn/iGameCenter/#firstPage",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-5d05cfc152f37a71",
+          "url": "https://www.colorful.cn/home/download",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c1919567acaea05c",
+      "name": "驱动之家",
+      "description": "驱动资讯+下载一体，覆盖老旧硬件驱动",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f76967946ca62f92",
+          "url": "https://www.mydrivers.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-44aaa920940e079c",
+      "name": "驱动总裁",
+      "description": "不限速的驱动安装工具",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-4c2560db9cba19bd",
+          "url": "https://www.sysceo.com/dc",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-9f183bcc222842ec",
+          "url": "https://xiaodao.lanzout.com/b0duq4mof",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8a35dbcb1389b716",
+      "name": "瓦尔基里-Myth.Cool",
+      "description": "一款将硬件和外饰结合起来的控制软件",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-04c5bf7964cc0cfc",
+          "url": "https://dl.myth.cool/MythCool_Latest.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c43fdb1ca22c1fa1",
+      "name": "微星驱动下载",
+      "description": "微星科技官方网站",
+      "category": "驱动工具",
+      "aliases": [
+        "Msi(微星)驱动官网",
+        "微星支持中心"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-310ef27b654ae139",
+          "url": "https://www.msi.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-c8e98ef191c60557",
+          "url": "https://www.msi.cn/support/download",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-74b21cdf3d0c1036",
+      "name": "小米驱动",
+      "description": "小米笔记本驱动官网",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-5880878a769b8f23",
+          "url": "https://www.mi.com/service/notebook/drivers",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c9087b721ebc6381",
+      "name": "AMD 驱动下载",
+      "description": "显卡驱动",
+      "category": "驱动工具",
+      "aliases": [
+        "AMD驱动",
+        "AMD显卡"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c069958244a9e35c",
+          "url": "https://www.amd.com/zh-cn/support/download/drivers.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-222286a404501bbe",
+      "name": "ASUS Armoury Crate",
+      "description": "奥创游戏智控中心",
+      "category": "驱动工具",
+      "aliases": [
+        "ASUS Armoury Crat",
+        "华硕奥创"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-33e0b8edfc96a841",
+          "url": "https://www.asus.com.cn/supportonly/armoury%20crate/helpdesk_download/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-a0dccbc275aa6291",
+          "url": "https://dlcdnets.asus.com.cn/pub/ASUS/mb/14Utilities/ArmouryCrateInstallTool.zip",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ab96f283e16591af",
+      "name": "GIGABYTE Control Center",
+      "description": "软件设置,升级. 点一点全搞定",
+      "category": "驱动工具",
+      "aliases": [
+        "GiGABYTE Control Centel"
+      ],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-834fadb26387c17b",
+          "url": "https://www.gigabyte.com/Consumer/Software/GIGABYTE-Control-Center/global/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c952d9560d8bec4a",
+      "name": "iGame Center",
+      "description": "我游自在·酷玩星球",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-f83d13d06e721d05",
+          "url": "https://www.colorful.cn/iGameCenter/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-acc6e5d70ecd1b6b",
+      "name": "Intel下载中心",
+      "description": "CPU/核显/网卡/芯片组驱动一站式获取",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-31e7d7b1f735b058",
+          "url": "https://www.intel.cn/content/www/cn/zh/download-center/home.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-832e90461642231e",
+      "name": "MCHOSE HUB",
+      "description": "外设驱动",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c91c6c1fc0ac6592",
+          "url": "https://www.maicong.cn/support/hub/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-3853d736a91c6475",
+      "name": "MSI Afterburner",
+      "description": "微星小飞机",
+      "category": "驱动工具",
+      "aliases": [
+        "Msi AFterBurner"
+      ],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-3254cf35b611f3e9",
+          "url": "https://www.msi.com/Landing/afterburner/graphics-cards",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d3d0f1c1792ab213",
+      "name": "NVIDIA 驱动下载",
+      "description": "NVIDIA 官方驱动下载渠道",
+      "category": "驱动工具",
+      "aliases": [
+        "NVIDIA 驱动官网",
+        "英伟达",
+        "NVIDIA显卡"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-13796c66c0c9158d",
+          "url": "https://www.nvidia.cn/drivers/lookup/",
+          "type": "website",
+          "sources": [
+            "local",
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-25557b54119af4ba",
+          "url": "https://www.nvidia.cn/geforce/drivers/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b77dc188994dd7d9",
+      "name": "Realtek官网",
+      "description": "声卡/网卡驱动权威来源，适配老旧型号",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-54a4afbb2c9bbb7c",
+          "url": "https://www.realtek.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5e741c48c38d848c",
+      "name": "VGN HUB",
+      "description": "外设驱动",
+      "category": "驱动工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-6f4e10757f959060",
+          "url": "https://hub.vgnlab.com.cn/#/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-67f8b698dd414dea",
+      "name": "安兔兔",
+      "description": "性能跑分榜单",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-952bf7d5fdf6f49b",
+          "url": "https://www.antutu.com/ranking/rank101.htm",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-54246502f257ad25",
+      "name": "测速网",
+      "description": "提供网速测试",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ea34ba38375a91b4",
+          "url": "https://www.speedtest.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0c9ae993775f1329",
+      "name": "电源天梯榜",
+      "description": "多媒体播放器",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-a6548c1d650bd54c",
+          "url": "https://topic.expreview.com/Power/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ffc7ab3c7e5e3301",
+      "name": "键盘按键测试工具",
+      "description": "MeetKB在线免费键盘按键测试工具",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-390c9bf6947bacf3",
+          "url": "https://tester.meetkb.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cb7879463edda362",
+      "name": "屏幕检测",
+      "description": "在线给显示器做检查",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f6898bb3ab8effa1",
+          "url": "https://screen.bmcx.com/#welcome",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-a62930e9683c5f83",
+      "name": "手柄测试",
+      "description": "请连接你的手柄并点击按钮",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c060775bc7053354",
+          "url": "https://ds.evua.art/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0300d8668dba257a",
+      "name": "手柄检测",
+      "description": "全类别手柄在线检测工具",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2d85d544b5502db3",
+          "url": "https://gobing.cn/experiment/key",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0ec71f20871febf7",
+      "name": "鼠标测试工具",
+      "description": "一款免费的专业鼠标测试工具",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5f438363a7aa3d8b",
+          "url": "https://testmouse.com/zh",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-6f5dfa67eaa24bec",
+      "name": "刷新率检测",
+      "description": "在线刷新率检测网站",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-60fabfb77a24af25",
+          "url": "https://testufo.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-18cca03f7e46f791",
+      "name": "图吧工具箱",
+      "description": "DIY爱好者的必备工具合集",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-52b53059af44b70b",
+          "url": "https://www.tbtool.cn/download/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-92492d5f35d3f61e",
+          "url": "https://www.tubatool.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-cfe1334b06ca7cf6",
+          "url": "https://www.tbtool.cn/",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d9eaebba747e6d82",
+      "name": "网络测速",
+      "description": "中国科技大测速网站",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-34762e06d82122d1",
+          "url": "https://test.ustc.edu.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-6334c9aa7d698a22",
+      "name": "显卡天梯榜",
+      "description": "GPU性能天梯榜",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d7ff069a00c4f770",
+          "url": "https://topic.expreview.com/GPU/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cbfc1d30e18787c8",
+      "name": "AIDA64",
+      "description": "检测工具",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-73f75a5e3de73c33",
+          "url": "https://share.feijipan.com/s/0SNcIZ5p",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-55eb1509e6cc30ec",
+      "name": "BlueScreenView",
+      "description": "蓝屏分析",
+      "category": "硬件检测",
+      "aliases": [
+        "bluescreenview"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5e750dabed8f674c",
+          "url": "https://share.feijipan.com/s/EUNcJEXj",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-362776612957b353",
+      "name": "CPU-Z",
+      "description": "CPU检测",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-453509d829af45d3",
+          "url": "https://share.feijipan.com/s/jUNcIc0W",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-06b0f34c6ad7ae30",
+      "name": "CPU天梯榜",
+      "description": "CPU性能天梯榜",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-80e1ba5eb4e126a2",
+          "url": "https://topic.expreview.com/CPU/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-368c7a37d913ce3a",
+      "name": "CrystalDiskInfo",
+      "description": "硬盘状态",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-47f97baba659057e",
+          "url": "https://share.feijipan.com/s/zCNcISAg",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-25c9841088a77711",
+      "name": "CrystalDiskMark",
+      "description": "硬盘读写速度",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-a5cac5ba643b701d",
+          "url": "https://share.feijipan.com/s/fLNcIpd7",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d33e18fe8e2965e3",
+      "name": "FurMark",
+      "description": "显卡压力测试",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-0aeaf534a97e97c9",
+          "url": "https://share.feijipan.com/s/C5NcJTET",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-557969aceaeeedb6",
+      "name": "GPU-Z",
+      "description": "显卡检测",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ce17733506d101a9",
+          "url": "https://share.feijipan.com/s/fpNcI5eW",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-1689a6b271c0fe62",
+      "name": "TM5",
+      "description": "内存检测",
+      "category": "硬件检测",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-78ba44ced2c9beee",
+          "url": "https://share.feijipan.com/s/D8NcIiR2",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d912f7998e260151",
+      "name": "360安全卫士",
+      "description": "AI赋能，提供全面安全保障",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-0da6927762375a2b",
+          "url": "https://www.360.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-9a583ec2ef9dd537",
+          "url": "https://www.360.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-304fe095cd1a41bf",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360Safe+327419+n06157c8a9b.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c4fb78f65a6617e4",
+      "name": "360安全卫士极速版",
+      "description": "轻松出发，开启安全护航",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-40c46cc657d0ca82",
+          "url": "https://sfdl.360safe.com/netunion/20140425/360safejisu+327419+n06157c8a9b.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b8e1f075180e9694",
+      "name": "360系统急救箱",
+      "description": "支持查杀恶性病毒，包含驱动型及MBR型",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-62eaff8b48e3ed70",
+          "url": "https://dl.360safe.com/360c0mpkill_5.1.64.1286-0707.zip",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-050f075307a6d69b",
+      "name": "火绒安全",
+      "description": "杀毒软件",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-12ba14b9a39b7a69",
+          "url": "https://www.huorong.cn/person6.html",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-787fd06cb08ea61a",
+          "url": "https://www.huorong.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-41504b9054e1a85a",
+      "name": "系统激活",
+      "description": "系统工具",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-a0e608b637ee13d8",
+          "url": "https://share.feijipan.com/s/Gw1CFm03",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b7dcd719b75a2cc1",
+      "name": "显卡更新安装工具",
+      "description": "一键更新最新显卡驱动",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1e2f837a9b14bb20",
+          "url": "https://wwasd.lanzout.com/irDPM3dtlogh",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0fbb913ec2c7f86c",
+      "name": "CCleaner",
+      "description": "加速、清理垃圾和修复问题",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-df29b302b2dccde1",
+          "url": "https://www.ccleaner.com/zh-cn",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c7372e8910790feb",
+      "name": "DDU",
+      "description": "驱动卸载",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-cd969b33332d2a16",
+          "url": "https://www.ddu.org.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b82a91001078325b",
+      "name": "DirectX 修复工具",
+      "description": "可视化修复组件以及Vc运行库",
+      "category": "系统维护",
+      "aliases": [
+        "DirectX修复工具",
+        "DirectX_Repair"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-459987b1f46f0d50",
+          "url": "https://share.feijipan.com/s/bZ0Uc16c",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-151541bcbcde7ff9",
+          "url": "https://pan.lanzouh.com/DirectXRepairEnhanced",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-80affde9b20935e2",
+      "name": "DiskGenius",
+      "description": "磁盘工具",
+      "category": "系统维护",
+      "aliases": [
+        "diskgenius"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-0570f4b98863392e",
+          "url": "https://www.diskgenius.cn/download.php",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-d727bbe78da74fd1",
+      "name": "HyperV-off",
+      "description": "控制面板工具",
+      "category": "系统维护",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-3c66ea1671d87375",
+          "url": "https://res.ldmnq.com/test/HyperV-off.exe",
+          "type": "file",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ab4f13c84eba5514",
+      "name": "Visual C++ 运行库合集",
+      "description": "包含2005 - 2022全版本",
+      "category": "系统维护",
+      "aliases": [
+        "Visual C 合集包",
+        "微软常用运行库"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-464c0944987ce387",
+          "url": "https://www.ilanzou.com/s/LzRNvxK9",
+          "type": "share",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-e860ebdf7f86dcc3",
+          "url": "https://huajin.lanzoul.com/iQY4h293oiwj",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f64660efbe61dd28",
+      "name": "豆包",
+      "description": "AI助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-8d5f8697fb427479",
+          "url": "https://www.doubao.com/download/desktop?ug_apk_token=RLS2L&ad_platform_id=baidusearch_lead&account_id=55786604&a_planid=682590154&a_unitid=10649666766&a_keywordid=953165768442&a_creative=135533154304&a_matchtype=2&a_dongtai=0&a_trig_flag=nm&a_crowdid=0&a_kw_enc_utf8=%E6%9C%80%E6%96%B0%E8%B1%86%E5%8C%85ai%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8%E5%8A%A9%E6%89%8B&ug_semver=v2.0.0&bd_vid=13151017574463361717",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-cbae90e06f6dac3d",
+          "url": "https://www.doubao.com/download/desktop",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-0de0cdb55bcfb5ee",
+          "url": "https://www.doubao.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-61aa4db8430dadc4",
+      "name": "即梦AI",
+      "description": "抖音旗下图片视频工具",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1d7de6f0f30fead0",
+          "url": "https://jimeng.jianying.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5ca1fa47766852b1",
+      "name": "扣子",
+      "description": "你的 AI 办公助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-1ca58951af11f15d",
+          "url": "https://www.coze.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-db2d53fb1c9cf5fb",
+      "name": "千问",
+      "description": "阿里最强模型官方AI",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-be718ea0cf7decce",
+          "url": "https://www.qianwen.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-3c8b3c203c1882b4",
+      "name": "腾讯元宝",
+      "description": "腾讯出品的AI对话助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-908c5b24926653cf",
+          "url": "https://yuanbao.tencent.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-88f70e4ac297bbd7",
+      "name": "文心一言",
+      "description": "百度推出的生成式AI",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-3dfb7bd73c80c3a8",
+          "url": "https://yiyan.baidu.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-594563f9d1e891c1",
+      "name": "Clawdbot",
+      "description": "The AI that actually does things",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-a47e3a29787190bf",
+          "url": "https://clawd.bot/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0648d2111ec0ca3d",
+      "name": "DeepSeek",
+      "description": "深度求索，综合AI助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-bd62c0962c92f5ae",
+          "url": "https://www.deepseek.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f6ece80b88d6dfbd",
+      "name": "Gemini",
+      "description": "谷歌开发的多模态智能 AI 助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5b7d54409f2a9b2a",
+          "url": "https://gemini.google.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0f10cd5092b6c598",
+      "name": "Gemini 3 Pro Image",
+      "description": "Google智能模型",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d1f8145d064c700f",
+          "url": "https://deepmind.google/models/gemini-image/pro/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-dca61d32363b091b",
+      "name": "Grok",
+      "description": "xAI 开发，集成实时搜索的 AI 助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-cd560a68164e0221",
+          "url": "https://grok.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-83f10a44727fc929",
+      "name": "Kimi",
+      "description": "月之暗面开发的智能助手",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-adcb5ed933fa4e78",
+          "url": "https://kimi.moonshot.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-0acebf4be29c549c",
+      "name": "Manus",
+      "description": "General AI",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-3174330a4ca47da9",
+          "url": "https://manus.im/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8b7d1a3187ab355d",
+      "name": "OpenAI",
+      "description": "GPT 系列模型开发方，多模态 AI 平台",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-04d39e8bd5d50dd5",
+          "url": "https://openai.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-f394cc2a6da7dfd6",
+      "name": "Perplexity",
+      "description": "对话式 AI 搜索引擎，答案带引用溯源",
+      "category": "AI 工具",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-bd687578ef655f76",
+          "url": "https://www.perplexity.ai/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-37b5182a4320c98c",
+      "name": "抖音直播伴侣",
+      "description": "支持：西瓜视频、抖音、抖音火山版",
+      "category": "直播录屏",
+      "aliases": [
+        "抖音直播"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-762768805c3d852c",
+          "url": "https://streamingtool.douyin.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-1a419d570c9db204",
+          "url": "https://streamingtool.douyin.com/api/invoke/download",
+          "type": "website",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-cda9ed1f5fbc7c32",
+      "name": "斗鱼直播",
+      "description": "直播软件",
+      "category": "直播录屏",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d497b78e0868352d",
+          "url": "https://www.douyu.com/pages/streamingtools",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-26ba2694ed832955",
+      "name": "虎牙直播",
+      "description": "直播软件",
+      "category": "直播录屏",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-d90d04d4d223f07b",
+          "url": "https://www.huya.com/download/#players_pc",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c30d8548a351eb6f",
+      "name": "快手直播伴侣",
+      "description": "快手直播工具电脑版",
+      "category": "直播录屏",
+      "aliases": [
+        "快手直播"
+      ],
+      "sources": [
+        "local",
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-46fcf3e3e3fa6559",
+          "url": "https://live.kuaishou.com/live-partner",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        },
+        {
+          "id": "link-15d243841590dc36",
+          "url": "https://d66-plat.wsukwai.com/kos/nlav12667/5.115.2.3580/KwaiLive-Setup-5.115.2.3580-ReleaseFull.exe",
+          "type": "file",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-3dd468768889245c",
+      "name": "B站直播",
+      "description": "直播软件",
+      "category": "直播录屏",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-902162e0b362f1b1",
+          "url": "https://link.bilibili.com/p/eden/download?hotRank=0#/web",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5b50b7708faf299e",
+      "name": "OBS Studio",
+      "description": "直播推流",
+      "category": "直播录屏",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5cc0e67257c0cc09",
+          "url": "https://obsproject.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-fa4de4a2fb5202a4",
+      "name": "3G壁纸",
+      "description": "壁纸网站",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-b936a05a90c7a5d4",
+          "url": "https://www.3gbizhi.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-4ed6172129ab1aaa",
+      "name": "4kwallpapers",
+      "description": "专注高清壁纸资源",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-90123d259e343283",
+          "url": "https://4kwallpapers.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c9b83ddb874741b4",
+      "name": "壁纸汇",
+      "description": "专注8K超高清资源（需注册后免费下载原图）",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-55596d8dc60029cf",
+          "url": "https://www.bizhihui.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-40f20dfa4f814df9",
+      "name": "高清壁纸",
+      "description": "海量高清壁纸，满足你的个性化需求",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-51d3cdfda79cd97f",
+          "url": "https://www.gaoqingbizhi.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-6c1d234b63eb2413",
+      "name": "美图集",
+      "description": "看好的风景、壁纸、素材库",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c94255746338b53f",
+          "url": "https://photo.ihansen.org/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-594397edf6a5727e",
+      "name": "致美化",
+      "description": "提供美化资源、主题、壁纸等内容",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-85161926e43baf21",
+          "url": "https://zhutix.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-76821f8158721a39",
+      "name": "All Mac Wallpaper",
+      "description": "专为苹果设备打造的壁纸平台",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-68031c01123c1bf2",
+          "url": "https://www.allmacwallpaper.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b9dfc4b370ef93ab",
+      "name": "Game Wallpaper",
+      "description": "游戏桌面壁纸(Game Wallpapers)",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ff72e8a70724bd7e",
+          "url": "https://www.gamewallpapers.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b34f665c92e16e58",
+      "name": "pexels壁纸",
+      "description": "壁纸网站",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-f293f105e0b9d4f5",
+          "url": "https://www.pexels.com/zh-cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-44301be903732ace",
+      "name": "TranslucentTB",
+      "description": "透明化任务栏软件",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "local"
+      ],
+      "links": [
+        {
+          "id": "link-b4a1fa667297db41",
+          "url": "https://huajin.lanzoul.com/iFBwg34pcweb",
+          "type": "share",
+          "sources": [
+            "local"
+          ],
+          "sourceType": "cloud",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-565c099b7c8e1247",
+      "name": "Wallpaper Engine",
+      "description": "Wallpaper Engine：壁纸引擎",
+      "category": "壁纸美化",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-ec4f894c57a0b213",
+          "url": "https://store.steampowered.com/app/431960/Wallpaper_Engine/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-ef87e66078eee192",
+      "name": "打印机驱动网",
+      "description": "驱动大全",
+      "category": "资源导航",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-02d3f46d82ce0c30",
+          "url": "https://www.dyjqd.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-c14deb969c67a657",
+      "name": "微PE工具箱",
+      "description": "跨时代的PE工具箱",
+      "category": "资源导航",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-7adcd28fce43f083",
+          "url": "https://www.wepe.com.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-339a97939f7fe27d",
+      "name": "MacWk",
+      "description": "精品Mac软件下载",
+      "category": "资源导航",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c898fa86859d51c3",
+          "url": "https://www.macwk.com/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-da1d1dd07dc374f8",
+      "name": "MSDN",
+      "description": "微软原版软件信息收录站点,msdn,itellyou",
+      "category": "资源导航",
+      "aliases": [],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-60268f9c8677c7af",
+          "url": "https://msdn.itellyou.cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "unverified",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-58f1fe1dd5a00b55",
+      "name": "NVIDIA 537.42 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 537.42驱动(网游)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-5afb5c27de94e80f",
+          "url": "https://www.nvidia.cn/download/driverResults.aspx/211817/cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-7398f8f179946b15",
+      "name": "NVIDIA 552.22 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 552.22驱动(稳定)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-2ea6ad5a1ac93afd",
+          "url": "https://www.nvidia.com/download/driverResults.aspx/224155/en-us/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8ba7edcdd6ff1e84",
+      "name": "NVIDIA 552.44 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 552.44驱动(网游3A)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-c3c052f7069b0827",
+          "url": "https://www.nvidia.com/download/driverResults.aspx/224557/cn/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-57db9dace42bd3d2",
+      "name": "NVIDIA 560.94 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 560.94驱动(稳定)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-15b43cfcac049f9d",
+          "url": "https://www.nvidia.com/Download/driverResults.aspx/230856/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-8ac28577f4d03d61",
+      "name": "NVIDIA 572.83 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 572.83驱动(通用)",
+        "NVIDIA 572.83驱动"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-7daf4d55bbc36b3f",
+          "url": "https://www.nvidia.com/en-gb/drivers/details/242448/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-b8117b4e39bac90b",
+      "name": "NVIDIA 576.88 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 576.88驱动"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-7bf516918568787a",
+          "url": "https://www.nvidia.com/download/driverResults.aspx/248978/en-us/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-a8e5d232f35f5b74",
+      "name": "NVIDIA 581.08 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 581.08驱动(稳定)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-287880ab750413e1",
+          "url": "https://www.nvidia.com/en-gb/drivers/details/252946/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-5e409f958d0fefa5",
+      "name": "NVIDIA 581.80 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 581.80驱动"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-94cd37a52221f4c7",
+          "url": "https://www.nvidia.com/download/driverResults.aspx/257497/en-us/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "software-fe4f267fafdc85bf",
+      "name": "NVIDIA 591.44 驱动",
+      "description": "历史显卡驱动版本，请在下载页核对支持的显卡型号和操作系统。",
+      "category": "历史显卡驱动",
+      "aliases": [
+        "NVIDIA 591.44驱动(高配)"
+      ],
+      "sources": [
+        "website"
+      ],
+      "links": [
+        {
+          "id": "link-4231acf9302e0b48",
+          "url": "https://www.nvidia.com/download/driverResults.aspx/258747/en-us/",
+          "type": "website",
+          "sources": [
+            "website"
+          ],
+          "sourceType": "official",
+          "verification": {
+            "status": "pending",
+            "checkedAt": null
+          }
+        }
+      ]
+    }
+  ]
+}

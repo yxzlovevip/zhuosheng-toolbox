@@ -1,0 +1,44 @@
+$ErrorActionPreference = 'Stop'
+$projectRoot = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
+$exePath = Join-Path $projectRoot '工具\重装后工具\浏览器配置与推广清理.exe'
+$catalogPath = Join-Path $projectRoot 'assets\catalog.json'
+$entry = [ordered]@{
+    Id = 'browser-cleanup'
+    Name = '浏览器配置与推广清理（含收藏夹清除）'
+    Category = '重装维护'
+    RelativePath = '工具/重装后工具/浏览器配置与推广清理.exe'
+    Sha256 = (Get-FileHash -LiteralPath $exePath -Algorithm SHA256).Hash
+    Summary = '原 BAT 完整封装；会删除浏览器配置和收藏夹，深度模式还清除程序目录及注册表。'
+    Purpose = '重装维护中需要使用原浏览器配置清除脚本的全部功能时使用。不是仅清缓存或仅移除广告。'
+    Preparation = '提前手工导出收藏夹并备份所需浏览器资料。原脚本没有自动备份和撤销；它还会删除 D:\Backup\Favorites。保存页面与下载，关闭浏览器，核对目标系统盘。'
+    Steps = @(
+        '先阅读影响说明，完成手工备份后确认启动；主软件不传 /S，默认显示原 BAT 菜单。'
+        '原菜单 1“安全模式”实际会清除用户数据和收藏夹，还会删除 Edge/EdgeUpdate 策略，不能用来保留个人资料。'
+        '原菜单 2“严厉模式”还会强制结束相关进程，删除程序目录、快捷方式与注册表，并把 IE 主页/搜索相关值设为百度。'
+        '原菜单 3 为 PE 模式，可手工填写系统盘符；原脚本未实现离线注册表挂载，注册表操作仍指向执行环境，部分路径也未跟随目标盘。'
+        '阅读原脚本输出。其“清理完成”不证明所有操作成功；请自行核对实际结果。'
+    )
+    Impact = '高影响、不可自动撤销。保留原 BAT 的所有删除行为及已知问题：配置、收藏夹、D:\Backup\Favorites、关联目录与注册表可能被清除；切换目录失败后相对路径删除仍会继续；两种模式均会删除 Edge/EdgeUpdate 策略。深度模式还结束进程、清除程序及修改 IE 主页。原脚本没有自动备份。'
+    Result = '工具箱仅确认 EXE 已启动；BAT 的完成文本与退出码不代表清理成功，需人工复核。'
+    Evidence = '已逐行审查原 BAT；内嵌字节 SHA-256 为 A920497432039F668047863973684FD9247DFDE40049BB0B9286A7556498A88B。封装测试使用无删除替身 BAT；未执行真实清理。'
+    Risk = '高影响'
+    NeedsConfirmation = $true
+    Restart = '以原脚本与浏览器状态为准；可能需要重新启动浏览器'
+}
+$entryPath = Join-Path $PSScriptRoot 'tool-entry.json'
+[IO.File]::WriteAllText($entryPath, ($entry | ConvertTo-Json -Depth 8), (New-Object Text.UTF8Encoding($false)))
+if (-not (Test-Path -LiteralPath $catalogPath)) {
+    throw "主软件清单不存在。已生成接入条目：$entryPath；请在主软件准备好后重跑 register.ps1。"
+}
+$catalogStream = [IO.File]::Open($catalogPath, [IO.FileMode]::Open, [IO.FileAccess]::ReadWrite, [IO.FileShare]::None)
+try {
+    $reader = New-Object IO.StreamReader($catalogStream, [Text.Encoding]::UTF8, $true, 4096, $true)
+    try { $items = @($reader.ReadToEnd() | ConvertFrom-Json) } finally { $reader.Dispose() }
+    $items = @($items | Where-Object { $_.Id -ne 'browser-cleanup' }) + @([pscustomobject]$entry)
+    $bytes = (New-Object Text.UTF8Encoding($false)).GetBytes(($items | ConvertTo-Json -Depth 12))
+    $catalogStream.Position = 0
+    $catalogStream.Write($bytes, 0, $bytes.Length)
+    $catalogStream.SetLength($bytes.Length)
+    $catalogStream.Flush($true)
+} finally { $catalogStream.Dispose() }
+Write-Output "Registered: browser-cleanup / $($entry.Sha256)"

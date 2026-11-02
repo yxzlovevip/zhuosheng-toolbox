@@ -1,0 +1,32 @@
+/* The shared palette and dimensions are the only source for app-wide styling. */
+:root {
+ font-family:'Microsoft YaHei UI','Segoe UI Variable Text','Segoe UI',sans-serif;
+ font-size:14px;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;
+ color-scheme:dark;
+ --bg:#10131e;--side:#141825;--surface:#1b2030;--raised:#232a3d;--input:#171c2b;
+ --text:#edf0f8;--muted:#b0b9d0;--subtle:#a1abc2;--disabled:#9da7be;
+ --line:#3a435c;--line-soft:#2e364b;--hover:#293249;
+ --primary:#7252df;--primary-text:#fff;--accent:#c6b5ff;--accent-soft:#a287ff18;--accent-line:#a78bfa70;--focus:#c5b1ff;
+ --mint:#70dfc2;--mint-soft:#70dfc212;--warning:#f5ce86;--warning-soft:#e3b45f12;--error:#ffb4b4;--error-soft:#e26b6b12;
+ --favorite-color:#f3a4bc;--favorite-soft:#f3a4bc14;--favorite-line:#f3a4bc50;
+ --backdrop:#070a14b8;--shadow:0 12px 32px #05081228;--card-shadow:none;
+ --category:var(--accent);--category-soft:var(--accent-soft);--category-solid:#7252df;
+ --radius:14px;--radius-small:8px;--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;
+ --motion-fast:120ms;--motion-state:180ms;--motion-view:240ms;--ease-out:cubic-bezier(.16,1,.3,1);
+}
+:root[data-theme=light] {
+ color-scheme:light;
+ --bg:#f3f4f9;--side:#fafafe;--surface:#fff;--raised:#f1f2f8;--input:#fff;
+ --text:#22283b;--muted:#566079;--subtle:#626d83;--disabled:#67728a;
+ --line:#c8cede;--line-soft:#e0e4ee;--hover:#e9eaf4;
+ --primary:#6542cf;--primary-text:#fff;--accent:#6040c0;--accent-soft:#7655d410;--accent-line:#7655d450;--focus:#6947ce;
+ --mint:#11735d;--mint-soft:#11735d0c;--warning:#855a10;--warning-soft:#c184160d;--error:#b32838;--error-soft:#b328380b;
+ --favorite-color:#ac305b;--favorite-soft:#ac305b0b;--favorite-line:#ac305b40;
+ --backdrop:#10172a65;--shadow:0 12px 32px #2530520a;
+}
+::selection{background:var(--accent-line);color:var(--text)}
+input{caret-color:var(--accent)}
+*{scrollbar-color:var(--line) transparent;scrollbar-width:thin}
+::-webkit-scrollbar{width:7px;height:7px}
+::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+::-webkit-scrollbar-track{background:transparent}

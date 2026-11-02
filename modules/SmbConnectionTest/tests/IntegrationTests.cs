@@ -1,0 +1,23 @@
+using System.IO;
+using System.Security.Cryptography;
+using Toolbox.App;
+using Toolbox.Core;
+
+string root = Path.GetFullPath(args[0]);
+using var embedded = typeof(AppServices).Assembly.GetManifestResourceStream("catalog.json") ?? throw new Exception("主程序没有嵌入工具清单");
+var catalog = ToolCatalog.Load(embedded);
+var entry = catalog.Items.Single(i => i.Id == "smb-connection-test");
+if (entry.Category != "网络工具" || !catalog.Search("SMB", "网络工具").Any(i => i.Id == entry.Id)) throw new Exception("网络分类或搜索没有显示 SMB 入口");
+if (entry.NeedsConfirmation || entry.RelativePath != "工具/网络/SMB连接测试.exe") throw new Exception("入口路径或只读工具确认行为错误");
+Console.WriteLine("PASS built application embeds searchable SMB entry in network category");
+var auth = new AuthGate();
+if (!auth.TryUnlock((System.Environment.GetEnvironmentVariable("CZ_TEST_PASSWORD") ?? throw new System.InvalidOperationException("Set CZ_TEST_PASSWORD before running native login tests.")))) throw new Exception("无法解锁测试启动器");
+var launcher = new ToolLauncher(Path.Combine(AppContext.BaseDirectory, "tools"), auth, () => true);
+string path = await launcher.ValidateAsync(entry);
+if (Convert.ToHexString(await SHA256.HashDataAsync(File.OpenRead(path))) != entry.Sha256) throw new Exception("清单和复制的 EXE 不一致");
+if (!File.Exists(path + ".config") || !File.Exists(Path.Combine(Path.GetDirectoryName(path)!, "SMB连接测试-使用说明.txt"))) throw new Exception("发布内容缺少配置或使用说明");
+Console.WriteLine("PASS published-content path and SHA-256 accepted by actual tool launcher");
+string original = Path.Combine(root, "工具", "网络", "SMB连接测试.exe");
+if (Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(original))) != entry.Sha256) throw new Exception("原始工具目录与主程序嵌入清单不一致");
+Console.WriteLine("PASS original EXE, embedded catalog and app output carry identical bytes");
+Console.WriteLine("RESULT SMB integration tests passed");

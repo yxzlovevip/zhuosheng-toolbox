@@ -1,0 +1,236 @@
+[
+  {
+    "Id": "firewall",
+    "IconPath": "tool-icons/firewall.png",
+    "Source": "original",
+    "OriginalPath": "工具/工具/360流量防火墙.exe"
+  },
+  {
+    "Id": "speed",
+    "IconPath": "tool-icons/speed.png",
+    "Source": "original",
+    "OriginalPath": "工具/工具/宽带测速器.exe"
+  },
+  {
+    "Id": "autoruns",
+    "IconPath": "tool-icons/autoruns.png",
+    "Source": "original",
+    "OriginalPath": "工具/工具/启动项管理.exe"
+  },
+  {
+    "Id": "gpu",
+    "IconPath": "tool-icons/gpu.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/工具/GPU资源占用查看工具.exe"
+  },
+  {
+    "Id": "defender",
+    "IconPath": "tool-icons/defender.png",
+    "Source": "original",
+    "OriginalPath": "工具/工具/Windows Defender 检查工具.exe"
+  },
+  {
+    "Id": "archive",
+    "IconPath": "tool-icons/archive.png",
+    "Source": "original",
+    "OriginalPath": "工具/重装后工具/9.zip解压.exe"
+  },
+  {
+    "Id": "driver",
+    "IconPath": "tool-icons/driver.png",
+    "Source": "original",
+    "OriginalPath": "重装/驱动总裁VIP版.exe"
+  },
+  {
+    "Id": "reinstall",
+    "IconPath": "tool-icons/reinstall.png",
+    "Source": "original",
+    "OriginalPath": "重装/天喵一键重装密码1788.exe"
+  },
+  {
+    "Id": "technician-reinstall",
+    "IconPath": "tool-icons/technician-reinstall.png",
+    "Source": "original",
+    "OriginalPath": "重装/技术员一键重装.exe"
+  },
+  {
+    "Id": "pe",
+    "IconPath": "tool-icons/pe.png",
+    "Source": "original",
+    "OriginalPath": "工具/工具/④一键关闭PE选项.exe"
+  },
+  {
+    "Id": "isolation",
+    "IconPath": "tool-icons/isolation.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/工具/一键关闭Windows内核隔离.exe"
+  },
+  {
+    "Id": "ipv6",
+    "IconPath": "tool-icons/ipv6.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/重装后工具/5.右键管理员运行 一键关ipv6.exe"
+  },
+  {
+    "Id": "updates",
+    "IconPath": "tool-icons/updates.svg",
+    "Source": "generated",
+    "OriginalPath": "重装/禁用更新.exe"
+  },
+  {
+    "Id": "hyperv",
+    "IconPath": "tool-icons/hyperv.svg",
+    "Source": "generated",
+    "OriginalPath": "重装/HyperV-off.exe"
+  },
+  {
+    "Id": "uac",
+    "IconPath": "tool-icons/uac.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/重装后工具/2.请打开我-关闭管理员权限改.reg"
+  },
+  {
+    "Id": "browser-cleanup",
+    "IconPath": "tool-icons/browser-cleanup.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/重装后工具/浏览器配置与推广清理.exe"
+  },
+  {
+    "Id": "smb-connection-test",
+    "IconPath": "tool-icons/smb-connection-test.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/网络/SMB连接测试.exe"
+  },
+  {
+    "Id": "diskgenius",
+    "IconPath": "tool-icons/diskgenius.png",
+    "Source": "original",
+    "OriginalPath": "工具/磁盘管理/DiskGenius.exe"
+  },
+  {
+    "Id": "spacesniffer",
+    "IconPath": "tool-icons/spacesniffer.png",
+    "Source": "original",
+    "OriginalPath": "工具/磁盘管理/SpaceSniffer.exe"
+  },
+  {
+    "Id": "defender-control",
+    "IconPath": "tool-icons/defender-control.png",
+    "Source": "original",
+    "OriginalPath": "工具/安全/defender-control-v1.1.0.exe"
+  },
+  {
+    "Id": "win10-optimization",
+    "IconPath": "tool-icons/win10-optimization.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/系统设置/Win10优化系统.exe"
+  },
+  {
+    "Id": "heu-kms",
+    "IconPath": "tool-icons/heu-kms.png",
+    "Source": "original",
+    "OriginalPath": "工具/激活/HEU_KMS_Activator_v63.3.4.exe"
+  },
+  {
+    "Id": "ace-virtualization",
+    "IconPath": "tool-icons/ace-virtualization.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/系统设置/ACE虚拟化环境检测修复.exe"
+  },
+  {
+    "Id": "uninstaller",
+    "IconPath": "tool-icons/uninstaller.png",
+    "Source": "original",
+    "OriginalPath": "工具/重装后工具/13.卸载工具.exe"
+  },
+  {
+    "Id": "runtime-repair",
+    "IconPath": "tool-icons/runtime-repair.png",
+    "Source": "original",
+    "OriginalPath": "工具/重装后工具/3.系统必备运行库修复.exe"
+  },
+  {
+    "Id": "oss-powertoys",
+    "IconPath": "tool-icons/oss-powertoys.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-localsend",
+    "IconPath": "tool-icons/oss-localsend.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-trafficmonitor",
+    "IconPath": "tool-icons/oss-trafficmonitor.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-sharex",
+    "IconPath": "tool-icons/oss-sharex.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-screentogif",
+    "IconPath": "tool-icons/oss-screentogif.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-quicklook",
+    "IconPath": "tool-icons/oss-quicklook.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-bcuninstaller",
+    "IconPath": "tool-icons/oss-bcuninstaller.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "oss-fileconverter",
+    "IconPath": "tool-icons/oss-fileconverter.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-image-resizer",
+    "IconPath": "tool-icons/pt-image-resizer.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-power-rename",
+    "IconPath": "tool-icons/pt-power-rename.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-file-locksmith",
+    "IconPath": "tool-icons/pt-file-locksmith.svg",
+    "Source": "generated",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-awake",
+    "IconPath": "tool-icons/pt-awake.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-always-on-top",
+    "IconPath": "tool-icons/pt-always-on-top.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  },
+  {
+    "Id": "pt-text-extractor",
+    "IconPath": "tool-icons/pt-text-extractor.png",
+    "Source": "original",
+    "OriginalPath": "工具/开源工具/CZOpenSourceTools.exe"
+  }
+]

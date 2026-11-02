@@ -1,0 +1,1201 @@
+[
+  {
+    "Id": "firewall",
+    "Name": "网络流量管理",
+    "Category": "网络工具",
+    "RelativePath": "工具/工具/360流量防火墙.exe",
+    "Sha256": "D6348BB4198A6A4810A032B51C3DFB11DE9CB076AAE91D618B0DF7B6AA673FFD",
+    "Summary": "查看网络使用情况，按需管理联网程序。",
+    "Purpose": "需要查找哪些程序正在联网或占用带宽时使用。",
+    "Preparation": "保存正在进行的下载、远程连接和在线工作。",
+    "Steps": [
+      "打开工具，先查看程序与流量列表。",
+      "定位目标程序，确认名称和来源。",
+      "需要调整联网规则时逐项操作；联网异常时恢复刚修改的规则。"
+    ],
+    "Impact": "限制联网可能中断下载、远程协助或软件登录。",
+    "Result": "以工具内流量变化、目标程序实际联网结果判断。",
+    "Risk": "中等",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "查看网速",
+      "限制网速",
+      "管理网络流量"
+    ],
+    "IconPath": "tool-icons/firewall.png"
+  },
+  {
+    "Id": "speed",
+    "Name": "宽带测速",
+    "Category": "网络工具",
+    "RelativePath": "工具/工具/宽带测速器.exe",
+    "Sha256": "6E594851DFDC2C5E0CDD23B58247A703CCA0C2D46433737569661A08303D1BFE",
+    "Summary": "辅助测量当前网络速度。",
+    "Purpose": "网络缓慢时进行参考测速。",
+    "Preparation": "暂停下载、视频和云同步；移动热点注意流量。",
+    "Steps": [
+      "打开测速器并阅读它的提示。",
+      "按工具内提示开始测速，等待测试结束。",
+      "记录结果，必要时换时间重复测量。"
+    ],
+    "Impact": "测速会占用带宽、产生网络流量，结果受服务器与当前负载影响。",
+    "Result": "查看测速结果，不能只凭一次测速判断宽带故障。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "测网速",
+      "网络测速",
+      "宽带速度"
+    ],
+    "IconPath": "tool-icons/speed.png"
+  },
+  {
+    "Id": "autoruns",
+    "Name": "启动项管理",
+    "Category": "常用工具",
+    "RelativePath": "工具/工具/启动项管理.exe",
+    "Sha256": "CDAE925AE76F982BE0653FB8544BAF3C94C4E86F20A1AF96EE48F6FDC0A01E9C",
+    "Summary": "查看和管理随 Windows 启动的程序。",
+    "Purpose": "排查开机缓慢、不需要的自启动程序。",
+    "Preparation": "记录准备修改项目的原始状态；不熟悉的驱动和服务先不修改。",
+    "Steps": [
+      "打开工具，等待启动项加载。",
+      "先查看发布者、文件路径和项目类型。",
+      "仅调整确认不需要的项目，并记录修改；异常时恢复原状态。"
+    ],
+    "Impact": "禁用系统服务、驱动或安全软件启动项可能影响系统和设备。",
+    "Result": "重启后观察启动行为；工具箱本身不会验证启动项效果。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "开机启动",
+      "启动项",
+      "关闭开机自启"
+    ],
+    "IconPath": "tool-icons/autoruns.png"
+  },
+  {
+    "Id": "gpu",
+    "Name": "GPU 资源占用查看",
+    "Category": "常用工具",
+    "RelativePath": "工具/工具/GPU资源占用查看工具.exe",
+    "Sha256": "F606C1F738E68EFDEB13BB38A77FB1916C33632B7A7858D8D1E7FCD3D6C85E80",
+    "Summary": "打开现有 GPU 占用查看工具。",
+    "Purpose": "排查显卡占用、程序运行负载。",
+    "Preparation": "结束重要编辑前先保存文件。",
+    "Steps": [
+      "打开工具并等待界面加载。",
+      "在工具内查看进程或资源占用。",
+      "结合实际运行程序判断，避免随意结束未知进程。"
+    ],
+    "Impact": "第三方程序内部功能尚未验证，如包含结束进程等操作应先保存工作。",
+    "Result": "以第三方程序显示为准，本工具箱不提供电脑信息查询。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "查显卡占用",
+      "显卡资源",
+      "GPU占用"
+    ],
+    "IconPath": "tool-icons/gpu.svg"
+  },
+  {
+    "Id": "defender",
+    "Name": "Windows Defender 检查",
+    "Category": "常用工具",
+    "RelativePath": "工具/工具/Windows Defender 检查工具.exe",
+    "Sha256": "D0B6965BE9CC036A316ACB456491562AEA12D2BB52AF12A475966EE7B41FC000",
+    "Summary": "打开现有 Defender 检查辅助工具。",
+    "Purpose": "需要辅助检查 Windows Defender 状态时使用。",
+    "Preparation": "先查看 Windows 安全中心，记录当前状态。",
+    "Steps": [
+      "打开检查工具。",
+      "阅读工具内检测信息。",
+      "如有修复或开关选项，先了解影响，再自行决定是否操作。"
+    ],
+    "Impact": "仅凭文件名不能确认内部只读；如果涉及防护设置，可能改变系统保护状态。",
+    "Result": "结合 Windows 安全中心状态核对，不以工具启动成功代替检测结果。",
+    "Risk": "中等",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "检查杀毒状态",
+      "查看防护状态"
+    ],
+    "IconPath": "tool-icons/defender.png"
+  },
+  {
+    "Id": "archive",
+    "Name": "WinRAR 压缩工具",
+    "Category": "常用工具",
+    "RelativePath": "工具/重装后工具/9.zip解压.exe",
+    "Sha256": "4BF3400B908DB3D49F29878F50CD5AF17441AD1D009272ECC9CBEE103B466CCF",
+    "Summary": "打开现有 WinRAR 压缩工具文件。",
+    "Purpose": "解压、查看压缩包或进行压缩操作。",
+    "Preparation": "先准备足够空间；覆盖文件前备份原文件。",
+    "Steps": [
+      "打开工具，按工具界面选择安装或进入操作。",
+      "选择目标压缩包和明确的输出目录。",
+      "遇到同名文件先检查，再决定是否覆盖。"
+    ],
+    "Impact": "版本信息显示为 WinRAR 7.11；文件可能为安装包，具体启动行为未实测。",
+    "Result": "检查输出文件是否齐全、能否正常打开。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "解压文件",
+      "压缩文件",
+      "打开压缩包"
+    ],
+    "IconPath": "tool-icons/archive.png"
+  },
+  {
+    "Id": "driver",
+    "Name": "驱动总裁",
+    "Category": "重装维护",
+    "RelativePath": "重装/驱动总裁VIP版.exe",
+    "Sha256": "17768719B4FECFF3DB3D3782645D54E8B12B30F815E349A4A67E4D628102D680",
+    "Summary": "检测设备驱动，并按需安装或修复。",
+    "Purpose": "重装后设备缺少驱动，或需要排查设备异常。",
+    "Preparation": "确认电脑型号，记录现有驱动；笔记本接通电源。",
+    "Steps": [
+      "打开工具并阅读扫描或安装提示。",
+      "核对设备与驱动，优先选择明确需要的项目。",
+      "逐项安装，按工具提示重启，再检查设备。"
+    ],
+    "Impact": "驱动变化可能影响联网、显示和其他设备；不保证原文件的 VIP 授权或兼容性。",
+    "Result": "在设备管理器和实际设备使用中核对结果。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "已从旧文件内嵌资源还原原程序并重新核对文件完整性，未再检出 EXERESX/KBHKS 资源；未运行实际维护操作，不代表完整安全扫描或功能验收。",
+    "Group": "驱动与修复",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "安装驱动",
+      "更新驱动"
+    ],
+    "IconPath": "tool-icons/driver.png"
+  },
+  {
+    "Id": "reinstall",
+    "Name": "天猫一键重装",
+    "Category": "重装维护",
+    "RelativePath": "重装/天喵一键重装密码1788.exe",
+    "Sha256": "DCEEB966E764FC9F4BE7C6FC18862951FB0317157B5F643A819EE7CFB0482306",
+    "Summary": "一键重装 Windows，打开前请先备份重要资料。",
+    "Purpose": "已决定重新安装 Windows 且已备份重要资料。",
+    "Preparation": "备份桌面、文档、浏览器、项目与软件授权；确认备份可读，接通电源。 工具自身密码：1788，与工具箱登录密码不同。",
+    "Steps": [
+      "再次确认重要资料已备份。",
+      "打开第三方重装工具，原文件名标注其自身密码为 1788。",
+      "仔细核对系统镜像与目标磁盘，再按第三方工具说明操作。"
+    ],
+    "Impact": "可能格式化或覆盖系统盘、删除应用和资料；不能撤销时需依赖备份恢复。",
+    "Result": "重装完成并进入系统后核对资料、驱动与应用；工具箱不会替你验证重装结果。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "已从旧文件内嵌资源还原原程序并重新核对文件完整性，未再检出 EXERESX/KBHKS 资源；未运行实际维护操作，不代表完整安全扫描或功能验收。",
+    "Group": "系统重装",
+    "ToolPassword": "1788",
+    "SearchAliases": [
+      "重装电脑",
+      "重装系统"
+    ],
+    "IconPath": "tool-icons/reinstall.png"
+  },
+  {
+    "Id": "technician-reinstall",
+    "Name": "技术员一键重装",
+    "Category": "重装维护",
+    "RelativePath": "重装/技术员一键重装.exe",
+    "Sha256": "A926D1E68C9B2892B3057196033CF07BABC5C7D3B2E89E65048114780F30E3EB",
+    "Summary": "使用技术员工具安装或重装 Windows。",
+    "Purpose": "已决定重新安装 Windows 且已备份重要资料时，打开技术员一键重装工具。",
+    "Preparation": "备份桌面、文档、浏览器、项目与软件授权，确认备份可读并接通电源。工具自身密码：vip0，与工具箱登录密码不同。",
+    "Steps": [
+      "再次确认重要资料已备份。",
+      "打开技术员一键重装，若原程序提示密码，输入 vip0。",
+      "核对系统镜像与目标磁盘，再按原程序提示操作。"
+    ],
+    "Impact": "可能格式化或覆盖系统盘、删除应用和资料；需依赖备份恢复，不能将工具启动当作重装完成。",
+    "Result": "重装完成并进入系统后核对资料、驱动和应用，工具箱不会自动验证重装结果。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "重装过程通常需要重启，以原程序提示为准。",
+    "Evidence": "已从旧文件内嵌资源还原原程序并重新核对文件完整性，未再检出 EXERESX/KBHKS 资源；未运行实际维护操作，不代表完整安全扫描或功能验收。",
+    "Group": "系统重装",
+    "ToolPassword": "vip0",
+    "SearchAliases": [
+      "技术员重装",
+      "重装系统"
+    ],
+    "IconPath": "tool-icons/technician-reinstall.png"
+  },
+  {
+    "Id": "pe",
+    "Name": "关闭 PE 启动选项",
+    "Category": "系统设置",
+    "RelativePath": "工具/工具/④一键关闭PE选项.exe",
+    "Sha256": "DAB511683B1C0BB12BADC1590A1AB7A558E0113D4CE135D5243BAF2609E996CA",
+    "Summary": "打开原目录中关闭 PE 选项的工具。",
+    "Purpose": "需要处理重装后遗留的 PE 启动选项。",
+    "Preparation": "记录当前启动项，确认仍有可启动的 Windows；先保存工作。",
+    "Steps": [
+      "确认自己需要调整的是 PE 启动选项。",
+      "打开工具并阅读它的具体提示。",
+      "只在确认目标后操作；按提示重启并检查启动菜单。"
+    ],
+    "Impact": "可能涉及启动配置；具体修改项尚未验证，不应在依赖 PE 恢复入口时随意使用。",
+    "Result": "重启后检查启动菜单和 Windows 是否正常进入。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭PE启动",
+      "删除PE启动菜单"
+    ],
+    "IconPath": "tool-icons/pe.png"
+  },
+  {
+    "Id": "isolation",
+    "Name": "关闭 Windows 内核隔离",
+    "Category": "系统设置",
+    "RelativePath": "工具/工具/一键关闭Windows内核隔离.exe",
+    "Sha256": "CD8133446CA7479C8641A6CA7564E6CD780AA1F36997ADCE71EFF4952D63A67A",
+    "Summary": "打开现有内核隔离关闭工具。",
+    "Purpose": "已经确认某项兼容性问题需要调整内核隔离。",
+    "Preparation": "记录 Windows 安全中心中内核隔离的原状态。",
+    "Steps": [
+      "先确认兼容性问题与内核隔离有关。",
+      "打开工具，阅读其提示，再决定是否执行。",
+      "按提示重启，并在 Windows 安全中心核对状态。"
+    ],
+    "Impact": "关闭内核隔离会降低相关系统保护；具体修改行为尚未验证。",
+    "Result": "在 Windows 安全中心的设备安全性页面核对；如需恢复优先使用系统设置。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭内核隔离",
+      "内存完整性"
+    ],
+    "IconPath": "tool-icons/isolation.svg"
+  },
+  {
+    "Id": "ipv6",
+    "Name": "关闭 IPv6 工具",
+    "Category": "网络工具",
+    "RelativePath": "工具/重装后工具/5.右键管理员运行 一键关ipv6.exe",
+    "Sha256": "A155C89F8B40BD3CD207F9D47BCA5C0E6D2A99306E4F684EDCFF8A909E68C369",
+    "Summary": "打开现有 IPv6 关闭工具。",
+    "Purpose": "已确认网络排障需要临时调整 IPv6。",
+    "Preparation": "记录网卡设置；远程协助时先安排断线后的处理方法。",
+    "Steps": [
+      "确认当前网络和业务是否依赖 IPv6。",
+      "打开工具，阅读提示后再执行。",
+      "检查联网和应用；如果出现异常，到网卡设置中恢复 IPv6。"
+    ],
+    "Impact": "关闭 IPv6 可能影响网络、远程访问和依赖 IPv6 的应用；可能需要重新连接或重启。",
+    "Result": "用实际网络和相关应用核对。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭IPv6",
+      "网络协议"
+    ],
+    "IconPath": "tool-icons/ipv6.svg"
+  },
+  {
+    "Id": "updates",
+    "Name": "Windows 更新设置工具",
+    "Category": "系统设置",
+    "RelativePath": "重装/禁用更新.exe",
+    "Sha256": "D603BFC4EF011B8F2C1FFA4E82036EAA92B9C02329EB905B894D7E0448B6034F",
+    "Summary": "打开现有禁用 Windows 更新工具。",
+    "Purpose": "内部维护人员有明确的更新管理需求。",
+    "Preparation": "记录当前 Windows 更新状态，确认何时恢复更新。",
+    "Steps": [
+      "确认需要调整的是 Windows 更新。",
+      "打开工具，阅读具体提示。",
+      "操作后进入 Windows 更新设置核对，维护结束后按需恢复。"
+    ],
+    "Impact": "禁用 Windows 更新会影响补丁获取；不影响本工具箱独立的自动更新功能。",
+    "Result": "以 Windows 更新设置为准；内部修改项尚未验证。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭自动更新",
+      "系统更新设置"
+    ],
+    "IconPath": "tool-icons/updates.svg"
+  },
+  {
+    "Id": "hyperv",
+    "Name": "关闭 Hyper-V 工具",
+    "Category": "系统设置",
+    "RelativePath": "重装/HyperV-off.exe",
+    "Sha256": "34CB3106AB7DBEF379E80E35086DE92883AEFAF3D2F56D1B1FC84FC13F413C85",
+    "Summary": "打开现有 Hyper-V 关闭工具。",
+    "Purpose": "已确认兼容性问题与 Windows 虚拟化功能有关。",
+    "Preparation": "保存虚拟机工作，关闭相关程序，记录 Windows 功能状态。",
+    "Steps": [
+      "确认是否使用 Hyper-V、WSL2 或依赖虚拟化的软件。",
+      "打开工具，阅读其变更提示。",
+      "按工具提示重启，核对目标应用和虚拟化功能。"
+    ],
+    "Impact": "可能影响 Hyper-V、WSL2、容器、模拟器及部分系统安全功能，具体修改范围尚未验证。",
+    "Result": "用实际软件和 Windows 功能状态核对。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以第三方工具和系统提示为准",
+    "Evidence": "按原文件名、版本信息整理；未在当前电脑运行验证。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭虚拟机",
+      "关闭虚拟化",
+      "Hyper-V设置"
+    ],
+    "IconPath": "tool-icons/hyperv.svg"
+  },
+  {
+    "Id": "uac",
+    "Name": "关闭 UAC 提示",
+    "Category": "系统设置",
+    "RelativePath": "工具/重装后工具/2.请打开我-关闭管理员权限改.reg",
+    "Sha256": "564984F162C33E1967EC28EC4855D45A86B0D57D2E98B2A8778FD637F6459D75",
+    "Summary": "导入原注册表文件，关闭 UAC 相关提示与机制。",
+    "Purpose": "仅在内部维护人员明确需要且了解影响时使用。",
+    "Preparation": "保存工作，记录 UAC 原状态；确认后续可以自行恢复，并准备重启。",
+    "Steps": [
+      "确认要关闭 UAC，而不是仅让工具箱以管理员身份运行。",
+      "点击启动后，Windows 注册表编辑器还会显示导入确认；需要取消时选择“否”。",
+      "仅在确认后选择“是”，按系统需要重启。",
+      "恢复时使用 Windows 用户账户控制设置或由维护人员按原值恢复注册表。"
+    ],
+    "Impact": "已确认写入 HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System：EnableLUA=0、FilterAdministratorToken=0。会关闭 UAC 相关保护，可能影响部分应用；本工具箱不要求关闭 UAC。",
+    "Result": "导入成功提示仅代表注册表导入；重启后再核对 UAC 设置。工具箱不会读取结果或声称设置已完成。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "通常需要重启后生效",
+    "Evidence": "已静态读取注册表原文；未实际导入。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "关闭管理员提示",
+      "用户账户控制"
+    ],
+    "IconPath": "tool-icons/uac.svg"
+  },
+  {
+    "Id": "browser-cleanup",
+    "Name": "浏览器配置与推广清理（含收藏夹清除）",
+    "Category": "重装维护",
+    "RelativePath": "工具/重装后工具/浏览器配置与推广清理.exe",
+    "Sha256": "CC563E72EE67786FE0A849882573E1F53580485DE4C4FFB155CB4C3B66CE9302",
+    "Summary": "原 BAT 完整封装；会删除浏览器配置和收藏夹，深度模式还清除程序目录及注册表。",
+    "Purpose": "重装维护中需要使用原浏览器配置清除脚本的全部功能时使用。不是仅清缓存或仅移除广告。",
+    "Preparation": "提前手工导出收藏夹并备份所需浏览器资料。原脚本没有自动备份和撤销；它还会删除 D:\\Backup\\Favorites。保存页面与下载，关闭浏览器，核对目标系统盘。",
+    "Steps": [
+      "先阅读影响说明，完成手工备份后确认启动；主软件不传 /S，默认显示原 BAT 菜单。",
+      "原菜单 1“安全模式”实际会清除用户数据和收藏夹，还会删除 Edge/EdgeUpdate 策略，不能用来保留个人资料。",
+      "原菜单 2“严厉模式”还会强制结束相关进程，删除程序目录、快捷方式与注册表，并把 IE 主页/搜索相关值设为百度。",
+      "原菜单 3 为 PE 模式，可手工填写系统盘符；原脚本未实现离线注册表挂载，注册表操作仍指向执行环境，部分路径也未跟随目标盘。",
+      "阅读原脚本输出。其“清理完成”不证明所有操作成功；请自行核对实际结果。"
+    ],
+    "Impact": "高影响、不可自动撤销。保留原 BAT 的所有删除行为及已知问题：配置、收藏夹、D:\\Backup\\Favorites、关联目录与注册表可能被清除；切换目录失败后相对路径删除仍会继续；两种模式均会删除 Edge/EdgeUpdate 策略。深度模式还结束进程、清除程序及修改 IE 主页。原脚本没有自动备份。",
+    "Result": "工具箱仅确认 EXE 已启动；BAT 的完成文本与退出码不代表清理成功，需人工复核。",
+    "Evidence": "已逐行审查原 BAT；内嵌字节 文件完整性 为 A920497432039F668047863973684FD9247DFDE40049BB0B9286A7556498A88B。封装测试使用无删除替身 BAT；未执行真实清理。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以原脚本与浏览器状态为准；可能需要重新启动浏览器",
+    "Group": "驱动与修复",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "清理浏览器推广",
+      "清除浏览器配置",
+      "清除收藏夹"
+    ],
+    "IconPath": "tool-icons/browser-cleanup.svg"
+  },
+  {
+    "Id": "smb-connection-test",
+    "Name": "SMB 连接测试",
+    "Category": "网络工具",
+    "RelativePath": "工具/网络/SMB连接测试.exe",
+    "Sha256": "BF0E7D8C962780D2278FE3B28A5AB22DF0C0AD81BFA014A0E540DE807DC76EEA",
+    "Summary": "一键检查 NAS 地址、端口、SMB 协商及共享目录访问，定位连接失败步骤。",
+    "Purpose": "NAS 无法连接、端口能通但播放器或 Windows 仍无法访问共享时使用。",
+    "Preparation": "准备 NAS 的主机名或 IP、SMB 端口（默认 445）；需要检查共享权限时填写共享名。共享检查沿用当前程序账户已有的 Windows 凭据，不输入密码。",
+    "Steps": [
+      "打开工具，输入 NAS 地址和端口；支持 IP、主机名、SMB URL 和 Windows 共享路径。",
+      "可选填共享名，例如 media 或 电影；粘贴地址内的共享名会自动使用。",
+      "点击“一键测试”，逐项查看地址解析、端口连接、SMB 协商和共享访问结果；需要时可取消。",
+      "失败时按中文提示检查对应设置；点击“复制检测报告”可复制分步结果。"
+    ],
+    "Impact": "只读检测，不修改 NAS 文件、Windows 设置或凭据，不保存密码。会向指定地址发起连接；共享检查只读取第一条目录项，不保存文件名。管理员运行的凭据环境可能与桌面账户不同。",
+    "Result": "端口通过不代表 SMB 可用；SMB 协商通过不代表账号、共享或文件读写可用。共享目录可读取也不代表文件内容和写入权限已验证。自定义端口仅检测协议，不转而访问 445。",
+    "Evidence": "自研模块；已验证 SMB 2.0.2—3.1.1 协商解析、本地 TCP 故障/取消与窗口交互。尚未连接用户真实 NAS 验收。",
+    "Risk": "只读检测",
+    "NeedsConfirmation": false,
+    "Restart": "不需要重启；需要 Windows .NET Framework 4.8（当前开发电脑已有）",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "测试共享连接",
+      "NAS连接",
+      "检测共享文件夹"
+    ],
+    "IconPath": "tool-icons/smb-connection-test.svg"
+  },
+  {
+    "Id": "diskgenius",
+    "Name": "DiskGenius 磁盘管理",
+    "Category": "磁盘工具",
+    "RelativePath": "工具/磁盘管理/DiskGenius.exe",
+    "Summary": "分区管理与数据恢复工具。",
+    "Purpose": "检查磁盘、管理分区或进行数据恢复。",
+    "Preparation": "先备份重要数据。数据丢失时停止向原盘写入，恢复文件另存到其他磁盘。",
+    "Steps": [
+      "打开工具，核对目标磁盘的型号、容量和分区。",
+      "选择所需功能，执行前复核目标与变更说明。",
+      "恢复数据时另存到其他磁盘；完成后核对文件。"
+    ],
+    "Impact": "分区、格式化和写入操作可能造成数据丢失。未实际验证原文件行为，不保证恢复结果。",
+    "Result": "核对分区状态或恢复文件的完整性。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Sha256": "86DD2ADB74E892FB2DFE43CF9CFAF2C74447A4C830CB80B5ED50505E9C5923C1",
+    "Evidence": "按文件名及版本信息整理，未在当前电脑运行验证。",
+    "Restart": "以工具提示为准",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "磁盘分区",
+      "恢复分区",
+      "管理硬盘"
+    ],
+    "IconPath": "tool-icons/diskgenius.png"
+  },
+  {
+    "Id": "spacesniffer",
+    "Name": "SpaceSniffer 空间分析",
+    "Category": "磁盘工具",
+    "RelativePath": "工具/磁盘管理/SpaceSniffer.exe",
+    "Summary": "通过块状视图分析磁盘空间占用。",
+    "Purpose": "定位占用空间较大的目录和文件。",
+    "Preparation": "选择需要分析的磁盘或目录。",
+    "Steps": [
+      "打开工具，选择目标磁盘或目录。",
+      "等待扫描，查看空间占用分布。",
+      "先确认文件用途，再处理不需要的数据。"
+    ],
+    "Impact": "空间大小不代表文件可以删除。不要直接删除系统、软件或个人资料目录。",
+    "Result": "查看扫描覆盖范围和空间分布，部分受保护目录可能不可读。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Sha256": "192176A0FF46D84D27885E9D38E60157BC692EAF5D1E5B75CA56B3BEAA0DE7A6",
+    "Evidence": "按文件名及版本信息整理，未在当前电脑运行验证。",
+    "Restart": "以工具提示为准",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "找大文件",
+      "分析磁盘空间",
+      "磁盘空间占用",
+      "查看文件大小"
+    ],
+    "IconPath": "tool-icons/spacesniffer.png"
+  },
+  {
+    "Id": "defender-control",
+    "Name": "Defender Control",
+    "Category": "系统设置",
+    "RelativePath": "工具/安全/defender-control-v1.1.0.exe",
+    "Sha256": "08868A4E77A9BF7DB9C8EC282C41C1E38462C6D6AE57877541F3FB8B0613258E",
+    "Summary": "Windows Defender 防护管理工具。",
+    "Purpose": "内部维护人员需要检查或调整 Windows Defender 防护状态时使用。",
+    "Preparation": "记录 Windows 安全中心的当前状态，确认维护结束后的恢复方法，保存正在进行的工作。",
+    "Steps": [
+      "打开工具，先阅读其功能和状态提示。",
+      "确认需要调整的防护设置，再按工具内提示操作。",
+      "操作后进入 Windows 安全中心核对状态；维护结束后按需恢复。"
+    ],
+    "Impact": "调整或关闭 Windows Defender 防护可能降低系统保护，部分设置可能受系统策略或防篡改保护限制。具体修改范围和内部实现尚未验证。",
+    "Result": "以 Windows 安全中心与相关系统设置中的实际状态为准；启动成功不代表修改成功。",
+    "Evidence": "用户提供文件；原件与项目副本 文件完整性 一致。文件名标注 v1.1.0，未提供产品版本信息，未签名；未在当前电脑运行。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以工具及系统提示为准",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "开关Defender",
+      "防护设置"
+    ],
+    "IconPath": "tool-icons/defender-control.png"
+  },
+  {
+    "Id": "win10-optimization",
+    "Name": "Win10 优化系统",
+    "Category": "系统设置",
+    "RelativePath": "工具/系统设置/Win10优化系统.exe",
+    "Sha256": "7913A0C42949485AB8010B79D1EDB7D44939AEFC91D78EE2A8D6F7566A720EAA",
+    "Summary": "原脚本封装：调整电源，关闭防火墙、Defender 和系统更新。",
+    "Purpose": "需要执行所提供 Win10 优化脚本的原有设置时使用；点击打开后即开始执行。",
+    "Preparation": "保存工作并备份重要资料，记录电源、防护和更新原状态，准备手工恢复。原脚本没有自动备份或撤销；未验证 Windows 11 兼容性。",
+    "Steps": [
+      "阅读注意事项，确认接受全部设置变更，而非只调整电源。",
+      "点击打开工具，封装程序将执行原脚本，显示命令窗口。",
+      "等待脚本结束；期间资源管理器可能关闭并重新打开。",
+      "逐项核对电源、Windows 安全中心和更新设置；维护结束后按需恢复。"
+    ],
+    "Impact": "脚本会调整高性能电源方案、取消自动睡眠和休眠及唤醒密码要求，修改桌面图标；关闭防火墙、Defender 相关防护设置和 Windows 更新，阻止升级助手并修改其文件访问权限、删除相关计划任务和快捷方式；最后结束并重启资源管理器。降低系统保护，可能影响耗电、更新和桌面工作。原脚本没有自动撤销，部分命令可能失败。",
+    "Result": "任务结束文本和进程退出码不代表所有设置成功，需逐项在 Windows 中核对。",
+    "Evidence": "已静态读取原 BAT，并按原始字节内嵌封装；仅使用无修改替身验证封装启动，未执行真实优化。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "会重启资源管理器；部分系统设置可能需要重启电脑",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "优化Win10",
+      "系统优化"
+    ],
+    "IconPath": "tool-icons/win10-optimization.svg"
+  },
+  {
+    "Id": "heu-kms",
+    "Name": "HEU KMS Activator 63.3.4",
+    "Category": "重装维护",
+    "RelativePath": "工具/激活/HEU_KMS_Activator_v63.3.4.exe",
+    "Sha256": "DBE10240FC4841A60410DF3EE1704487F43A8E19158AEA99DDD8EA214BAB23B6",
+    "Summary": "打开用户提供的 HEU KMS Activator 63.3.4 原程序。",
+    "Purpose": "内部维护人员根据已有合法授权处理系统或办公软件激活问题。",
+    "Preparation": "先检查当前激活状态、系统版本和已有授权，保存工作。",
+    "Steps": [
+      "打开原程序，阅读其功能与当前状态。",
+      "根据已有授权和实际需求选择操作。",
+      "操作后在 Windows 或相应软件的激活页面核对状态。"
+    ],
+    "Impact": "第三方程序可能修改激活相关服务、任务及配置；内部实现、具体修改范围和授权有效性未验证。",
+    "Result": "以系统或相应软件激活页面及已有授权为准；工具启动不代表激活成功。",
+    "Evidence": "用户提供文件，原件与项目副本 文件完整性 一致；版本资源为 63.3.4.0，未签名，未运行验证。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "以原程序及系统提示为准",
+    "Group": "激活与部署",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "系统激活",
+      "Office激活"
+    ],
+    "IconPath": "tool-icons/heu-kms.png"
+  },
+  {
+    "Id": "ace-virtualization",
+    "Name": "ACE 虚拟化环境检测修复",
+    "Category": "系统设置",
+    "RelativePath": "工具/系统设置/ACE虚拟化环境检测修复.exe",
+    "Sha256": "71154F9EB6F805F44B51DDDC80B6AC3D1B5A0B985ACF121C0965365836746F83",
+    "Summary": "检测 DMA 保护、CPU 虚拟化、Hypervisor 和 VBS；保留原三种系统修复。",
+    "Purpose": "排查 ACE 虚拟化环境提示，按原工具功能选择 Hypervisor、VBS 或组合修复。",
+    "Preparation": "保存工作，阅读工具内 BIOS、Docker/WSL、账户/PIN 及 UEFI 提示；确保能用账户密码登录。",
+    "Steps": [
+      "打开后自动进行四项检测，不执行修复。",
+      "查看检测结果与原有 BIOS/UEFI 操作建议。",
+      "按需选择组合修复、仅关闭 Hypervisor 或仅关闭 VBS；点击执行。",
+      "保存工作后手动重启，按实际 UEFI 提示操作，再重新检测并验证目标应用。"
+    ],
+    "Impact": "保留原 DG Readiness -Disable 全部操作，包括相关注册表、代码完整性策略、Hyper-V 组件及 EFI/BCD 引导配置处理；并保留原有 WindowsHello 设置处理。可能影响 Docker、WSL、虚拟机、Windows Hello 和系统保护。封装不自动重启，执行策略仅对子进程有效；无自动撤销。",
+    "Result": "显示原始输出、错误和持久日志；脚本退出不代表修复生效。重启并重新检测，最终以 Windows 状态和目标应用实际表现为准。",
+    "Evidence": "自有封装源码；静态提取原 3 个 BAT，保留四项检测、三种修复及 BIOS/UEFI 提示；所用 DG Readiness 3.6 的 6 个文件与微软官方 ZIP 逐字节一致，PS1 微软签名有效。已完成替身测试与本机真实只读检测；未在本机执行真实修复或重启验收，非完整杀毒扫描。",
+    "Risk": "高影响",
+    "NeedsConfirmation": true,
+    "Restart": "修复后可能需要重启并在 UEFI 界面按 F3/Enter 确认；封装不自动重启。",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "检测ACE环境",
+      "虚拟化报错",
+      "VBS检查"
+    ],
+    "IconPath": "tool-icons/ace-virtualization.svg"
+  },
+  {
+    "Id": "uninstaller",
+    "Name": "Geek 软件卸载工具",
+    "Category": "常用工具",
+    "RelativePath": "工具/重装后工具/13.卸载工具.exe",
+    "Sha256": "1CDE4D0AA4141500CA8603E0FF61164BCC92641FB41BF62BE044F561082D0405",
+    "Summary": "查看已安装的软件，按需卸载并检查残留。",
+    "Purpose": "需要卸载不再使用的软件，或检查卸载后残留的项目时使用。",
+    "Preparation": "保存工作并关闭目标软件，确认软件名称及需保留的资料和设置。",
+    "Steps": [
+      "打开 Geek，等待已安装软件列表加载。",
+      "确认目标软件后，再按原工具提示选择卸载。",
+      "清理残留前逐项核对，完成后检查软件及需保留的资料。"
+    ],
+    "Impact": "卸载和残留清理可能删除程序、配置及关联资料；强制删除前需确认目标，工具箱不提供自动撤销。",
+    "Result": "在已安装的应用列表中核对软件状态，并检查保留资料；打开工具不代表卸载完成。",
+    "Evidence": "从旧文件内嵌资源还原出 Geek Uninstaller，数字签名有效，未再检出 EXERESX/KBHKS 资源；未执行真实卸载。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "部分软件卸载可能需要重启，以原程序提示为准",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "卸载软件",
+      "删除程序"
+    ],
+    "IconPath": "tool-icons/uninstaller.png"
+  },
+  {
+    "Id": "runtime-repair",
+    "Name": "系统必备运行库修复",
+    "Category": "重装维护",
+    "Group": "驱动与修复",
+    "RelativePath": "工具/重装后工具/3.系统必备运行库修复.exe",
+    "Sha256": "BADAED1AED0630D4B6F5889C606DE25E3B67C6766A131AD324FD2B237F3CF44F",
+    "Summary": "打开现有运行库合集，处理软件缺少运行环境的问题。",
+    "Purpose": "软件提示缺少运行库或相关组件时，查看并按需安装对应的运行环境。",
+    "Preparation": "保存工作并关闭相关软件，记录错误提示；安装前核对运行库版本和系统要求。",
+    "Steps": [
+      "打开运行库工具，阅读安装说明和组件列表。",
+      "按实际缺少的组件选择处理，遵循原程序提示。",
+      "完成后重新打开原软件；如要求重启，先保存工作。"
+    ],
+    "Impact": "可能安装或更改共享运行库并要求重启；具体组件及安装行为以原程序为准，不保证解决所有启动错误。",
+    "Result": "重新打开此前报错的软件核对；工具启动或安装结束不代表故障已解决。",
+    "Evidence": "从旧文件内嵌资源还原，版本信息为微软常用运行库合集32+64位合集，未再检出 EXERESX/KBHKS 资源；未实际安装运行库。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "可能需要重启，以原程序提示为准",
+    "ToolPassword": "",
+    "SearchAliases": [
+      "修运行库",
+      "修复运行库",
+      "缺少运行库"
+    ],
+    "IconPath": "tool-icons/runtime-repair.png"
+  },
+  {
+    "Id": "oss-powertoys",
+    "Name": "PowerToys 效率工具集",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-powertoys"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "工具/开源工具/powertoys/PowerToys.exe",
+    "IconSourcePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "Summary": "窗口置顶、文字提取、分区布局和更多 Windows 实用功能。",
+    "Purpose": "窗口置顶、文字提取、分区布局和更多 Windows 实用功能。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后在左侧选择需要的功能。首次使用先阅读功能页面的快捷键和设置。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "首次启动可能启用原工具的快捷键和后台模块；按需在 PowerToys 内关闭不需要的功能。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "效率工具集",
+      "PowerToys设置"
+    ],
+    "IconPath": "tool-icons/oss-powertoys.png"
+  },
+  {
+    "Id": "oss-localsend",
+    "Name": "LocalSend 手机电脑传文件",
+    "Category": "网络工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-localsend"
+    ],
+    "PayloadManifest": "工具/开源工具/localsend/payload.json",
+    "PayloadManifestSha256": "F9C31782C527DF578BA4E266AE30FD2D84AA10618FB92CDD2073BFE67866E25B",
+    "InstanceExecutable": "工具/开源工具/localsend/localsend_app.exe",
+    "IconSourcePath": "工具/开源工具/localsend/localsend_app.exe",
+    "Summary": "同一局域网内，手机和电脑之间互传文件。",
+    "Purpose": "同一局域网内，手机和电脑之间互传文件。",
+    "Preparation": "确认两个设备处于可互通的同一局域网，并在手机或另一台电脑打开 LocalSend。",
+    "Steps": [
+      "发送和接收设备都打开 LocalSend，连接同一局域网，选择对方设备后发送。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "传输会占用局域网带宽和接收端空间；接收方需确认。关闭工具箱会中断尚未完成的传输。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：localsend/localsend v1.18.2，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/localsend/localsend/releases/tag/v1.18.2",
+    "UpstreamVersion": "v1.18.2",
+    "SearchAliases": [
+      "传文件",
+      "手机传文件",
+      "局域网传输"
+    ],
+    "IconPath": "tool-icons/oss-localsend.png"
+  },
+  {
+    "Id": "oss-trafficmonitor",
+    "Name": "TrafficMonitor 网速与性能",
+    "Category": "网络工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-trafficmonitor"
+    ],
+    "PayloadManifest": "工具/开源工具/trafficmonitor/payload.json",
+    "PayloadManifestSha256": "7E827D8E4C0690F4D3A92382DDF08580BFF26F275288DAAA26828A1E20B8D467",
+    "InstanceExecutable": "工具/开源工具/trafficmonitor/TrafficMonitor/TrafficMonitor.exe",
+    "IconSourcePath": "工具/开源工具/trafficmonitor/TrafficMonitor/TrafficMonitor.exe",
+    "Summary": "用悬浮窗或任务栏查看网速、CPU 和内存占用。",
+    "Purpose": "用悬浮窗或任务栏查看网速、CPU 和内存占用。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后查看悬浮窗，右键进入设置，可按需开启任务栏显示。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "默认查看状态；修改任务栏显示和皮肤只影响本工具。温度传感器能否读取取决于硬件与驱动。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：zhongyang219/TrafficMonitor V1.86，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.86",
+    "UpstreamVersion": "V1.86",
+    "SearchAliases": [
+      "看实时网速",
+      "网速悬浮窗",
+      "性能监控"
+    ],
+    "IconPath": "tool-icons/oss-trafficmonitor.png"
+  },
+  {
+    "Id": "oss-sharex",
+    "Name": "ShareX 截图与录屏",
+    "Category": "效率工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-sharex"
+    ],
+    "PayloadManifest": "工具/开源工具/sharex/payload.json",
+    "PayloadManifestSha256": "D4B12053B5509AE6435D0699D8B359725175588012BAA6E2E41509AABD1FC4A2",
+    "InstanceExecutable": "工具/开源工具/sharex/ShareX.exe",
+    "IconSourcePath": "工具/开源工具/sharex/ShareX.exe",
+    "Summary": "区域截图、长截图、标注打码、录屏和文字识别。",
+    "Purpose": "区域截图、长截图、标注打码、录屏和文字识别。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后从“捕捉”选择截图方式，标注后保存；需要录屏时选择屏幕录制。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "截图和录屏可能包含隐私。按需使用上传功能；当前集成使用独立设置目录。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：ShareX/ShareX v21.0.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/ShareX/ShareX/releases/tag/v21.0.0",
+    "UpstreamVersion": "v21.0.0",
+    "SearchAliases": [
+      "截图录屏",
+      "截屏",
+      "屏幕录制"
+    ],
+    "IconPath": "tool-icons/oss-sharex.png"
+  },
+  {
+    "Id": "oss-screentogif",
+    "Name": "ScreenToGif 动图录制",
+    "Category": "效率工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-screentogif"
+    ],
+    "PayloadManifest": "工具/开源工具/screentogif/payload.json",
+    "PayloadManifestSha256": "CF730E6BDBA41FA441C98F9C2D22746B3F2520DCC951BB383985924E54A56F5F",
+    "InstanceExecutable": "工具/开源工具/screentogif/ScreenToGif.exe",
+    "IconSourcePath": "工具/开源工具/screentogif/ScreenToGif.exe",
+    "Summary": "录制屏幕区域，剪辑并保存成 GIF 或视频。",
+    "Purpose": "录制屏幕区域，剪辑并保存成 GIF 或视频。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开“录像机”，选择区域并录制，完成后在编辑器中剪辑、另存为。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "录制占用内存和磁盘空间。保存作品后再关闭工具箱，避免未保存的录制丢失。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：NickeManarin/ScreenToGif 2.43.2，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/NickeManarin/ScreenToGif/releases/tag/2.43.2",
+    "UpstreamVersion": "2.43.2",
+    "SearchAliases": [
+      "录制动图",
+      "制作GIF",
+      "GIF录屏"
+    ],
+    "IconPath": "tool-icons/oss-screentogif.png"
+  },
+  {
+    "Id": "oss-quicklook",
+    "Name": "QuickLook 空格预览",
+    "Category": "效率工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-quicklook"
+    ],
+    "PayloadManifest": "工具/开源工具/quicklook/payload.json",
+    "PayloadManifestSha256": "5B5EFB5FFDCB68DD6AC7AD6CDD242EBA2FDB8E7F113AC1CCE80940095883EB08",
+    "InstanceExecutable": "工具/开源工具/quicklook/QuickLook.exe",
+    "IconSourcePath": "工具/开源工具/quicklook/QuickLook.exe",
+    "Summary": "在资源管理器中选中文件，按空格快速预览。",
+    "Purpose": "在资源管理器中选中文件，按空格快速预览。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后工具驻留在通知区域；回到文件夹选中文件，按空格预览，再按空格或 Esc 关闭。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "不同文件格式的支持范围以当前插件为准；工具箱关闭后，文件预览服务一起结束。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：QL-Win/QuickLook 4.5.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/QL-Win/QuickLook/releases/tag/4.5.0",
+    "UpstreamVersion": "4.5.0",
+    "SearchAliases": [
+      "空格预览",
+      "文件快速预览"
+    ],
+    "IconPath": "tool-icons/oss-quicklook.png"
+  },
+  {
+    "Id": "oss-bcuninstaller",
+    "Name": "BCUninstaller 批量卸载",
+    "Category": "效率工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-bcuninstaller"
+    ],
+    "PayloadManifest": "工具/开源工具/bcuninstaller/payload.json",
+    "PayloadManifestSha256": "67C7D57A40105B4BCF3F30A21771FE7DA3B452312D4C099EF0738612EF63BF56",
+    "InstanceExecutable": "工具/开源工具/bcuninstaller/win-x64/BCUninstaller.exe",
+    "IconSourcePath": "工具/开源工具/bcuninstaller/win-x64/BCUninstaller.exe",
+    "Summary": "批量卸载不需要的软件，检查残留和孤立程序。",
+    "Purpose": "批量卸载不需要的软件，检查残留和孤立程序。",
+    "Preparation": "保存工作，确认需要卸载的软件及其资料已经备份。",
+    "Steps": [
+      "先等待软件列表加载，仅勾选确认不需要的软件，按原工具步骤预览并卸载。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "卸载和残留清理会删除软件及相关数据。请保存工作，仔细核对目标，不能把卸载当成普通清理。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "较高",
+    "NeedsConfirmation": true,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：BCUninstaller/Bulk-Crap-Uninstaller v6.3，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/tag/v6.3",
+    "UpstreamVersion": "v6.3",
+    "SearchAliases": [
+      "批量卸载",
+      "清理卸载残留"
+    ],
+    "IconPath": "tool-icons/oss-bcuninstaller.png"
+  },
+  {
+    "Id": "oss-fileconverter",
+    "Name": "File Converter 文件格式转换",
+    "Category": "效率工具",
+    "Group": "日常实用工具",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "oss-fileconverter"
+    ],
+    "PayloadManifest": "工具/开源工具/fileconverter/payload.json",
+    "PayloadManifestSha256": "6509C164290F6B3008687ECB1656370720A744F1D01D6F6DCA395887582DFFE6",
+    "InstanceExecutable": "",
+    "IconSourcePath": "工具/开源工具/fileconverter/FileConverter.exe",
+    "Summary": "选择文件后，转换图片、音频、视频等格式。",
+    "Purpose": "选择文件后，转换图片、音频、视频等格式。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "先选择文件，再选择目标格式，点击“开始转换”。结果保存在原文件所在文件夹，文件名增加 _converted。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "默认保留原文件、另存转换结果。支持的输入格式以所选预设为准，转换过程中不要关闭工具箱。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：Tichau/FileConverter v2.2，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。此副本已适配为程序相对路径和独立用户设置，无需安装右键扩展。",
+    "SourceUrl": "https://github.com/Tichau/FileConverter/releases/tag/v2.2",
+    "UpstreamVersion": "v2.2",
+    "SearchAliases": [
+      "转换格式",
+      "文件转格式"
+    ],
+    "IconPath": "tool-icons/oss-fileconverter.png"
+  },
+  {
+    "Id": "pt-image-resizer",
+    "Name": "图片批量缩小",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-image-resizer"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "工具/开源工具/powertoys/WinUI3Apps/PowerToys.ImageResizer.exe",
+    "IconSourcePath": "工具/开源工具/powertoys/WinUI3Apps/PowerToys.ImageResizer.exe",
+    "Summary": "用 PowerToys 批量调整图片尺寸。",
+    "Purpose": "用 PowerToys 批量调整图片尺寸。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后选择图片，设置尺寸并处理。保留原图时不要勾选替换原图。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "原工具可选择覆盖原图；请先核对输出方式和尺寸。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "批量缩小图片",
+      "修改图片尺寸",
+      "压缩图片尺寸"
+    ],
+    "IconPath": "tool-icons/pt-image-resizer.png"
+  },
+  {
+    "Id": "pt-power-rename",
+    "Name": "批量改文件名",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-power-rename"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "",
+    "IconSourcePath": "工具/开源工具/powertoys/WinUI3Apps/PowerToys.PowerRename.exe",
+    "Summary": "用 PowerRename 搜索替换文件名、批量编号。",
+    "Purpose": "用 PowerRename 搜索替换文件名、批量编号。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "先选择文件，再进入 PowerRename，查看改名前后的预览，确认后应用。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "会修改所选文件的名称，可能影响依赖固定路径的软件或项目。先检查预览。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "中等",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "批量改名",
+      "批量重命名",
+      "批量修改文件名"
+    ],
+    "IconPath": "tool-icons/pt-power-rename.svg"
+  },
+  {
+    "Id": "pt-file-locksmith",
+    "Name": "文件占用查询",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-file-locksmith"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "",
+    "IconSourcePath": "工具/开源工具/powertoys/FileLocksmithCLI.exe",
+    "Summary": "查询哪个程序占用了删除不了或正在使用的文件。",
+    "Purpose": "查询哪个程序占用了删除不了或正在使用的文件。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "选择需要查询的文件，点击“查询文件占用”，查看进程名称与编号。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "本入口只查询，不结束进程、不强制删除文件。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "查文件占用",
+      "谁占用了文件",
+      "文件正在使用"
+    ],
+    "IconPath": "tool-icons/pt-file-locksmith.svg"
+  },
+  {
+    "Id": "pt-awake",
+    "Name": "临时防休眠（1 小时）",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-awake"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "工具/开源工具/powertoys/PowerToys.Awake.exe",
+    "IconSourcePath": "工具/开源工具/powertoys/PowerToys.Awake.exe",
+    "Summary": "临时保持电脑唤醒一小时，便于下载或演示。",
+    "Purpose": "临时保持电脑唤醒一小时，便于下载或演示。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开后在通知区域查看 Awake 状态。一小时后自动结束本次保持唤醒。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "临时增加耗电；屏幕仍可按系统设置熄灭。关闭工具箱会提前结束保持唤醒。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "防止休眠",
+      "保持唤醒",
+      "临时不息屏"
+    ],
+    "IconPath": "tool-icons/pt-awake.png"
+  },
+  {
+    "Id": "pt-always-on-top",
+    "Name": "窗口置顶设置",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-always-on-top"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "工具/开源工具/powertoys/PowerToys.exe",
+    "IconSourcePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "Summary": "设置 PowerToys 窗口置顶，用快捷键固定当前窗口。",
+    "Purpose": "设置 PowerToys 窗口置顶，用快捷键固定当前窗口。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开设置并启用窗口置顶，选中目标窗口后按页面显示的快捷键；默认 Win + Ctrl + T。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "置顶窗口会遮住其他窗口，再按相同快捷键取消。入口打开设置，不自动置顶当前窗口。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "窗口置顶",
+      "固定窗口"
+    ],
+    "IconPath": "tool-icons/pt-always-on-top.png"
+  },
+  {
+    "Id": "pt-text-extractor",
+    "Name": "屏幕文字提取设置",
+    "Category": "效率工具",
+    "Group": "PowerToys 实用功能",
+    "RelativePath": "工具/开源工具/CZOpenSourceTools.exe",
+    "Sha256": "595B03FEBE8046F4DA45340BB7E9B5E6AFCE26E6206BF9AB99FE441282A521A6",
+    "Arguments": [
+      "pt-text-extractor"
+    ],
+    "PayloadManifest": "工具/开源工具/powertoys/payload.json",
+    "PayloadManifestSha256": "5A25273FDA41D009E57EDA14F15C828154906632E9D2A87065CD6F0D6A7BB663",
+    "InstanceExecutable": "工具/开源工具/powertoys/PowerToys.exe",
+    "IconSourcePath": "工具/开源工具/powertoys/PowerToys.exe",
+    "Summary": "设置从屏幕区域识别并复制文字。",
+    "Purpose": "设置从屏幕区域识别并复制文字。",
+    "Preparation": "先保存正在编辑的资料，准备需要处理的文件。",
+    "Steps": [
+      "打开设置并启用文字提取，按页面显示的快捷键框选文字；默认 Win + Shift + T。",
+      "在原工具内检查结果；处理中的文件请等待完成后再关闭工具箱。"
+    ],
+    "Impact": "识别准确率取决于文字清晰度和系统 OCR 语言包。入口打开设置，不自动读取屏幕。",
+    "Result": "以实际输出文件、窗口显示或原工具结果为准。启动成功不等于操作已经完成。",
+    "Risk": "常规",
+    "NeedsConfirmation": false,
+    "Restart": "通常无需重启；以原工具提示为准。",
+    "Evidence": "来源：microsoft/PowerToys v0.102.2933.0，官方发行包已核对 SHA-256。集成保留原界面，通过统一入口启动；跨设备传输、真实软件卸载等操作未在本机全面验收。",
+    "SourceUrl": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.2933.0",
+    "UpstreamVersion": "v0.102.2933.0",
+    "SearchAliases": [
+      "提取屏幕文字",
+      "图片取字设置",
+      "OCR设置"
+    ],
+    "IconPath": "tool-icons/pt-text-extractor.png"
+  }
+]

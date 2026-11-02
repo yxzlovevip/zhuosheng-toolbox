@@ -1,0 +1,8 @@
+<Project>
+  <!-- Keep the registered network utility available even when publishing the app directly. -->
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)..\..\工具\网络\SMB连接测试.exe" Link="tools\工具\网络\SMB连接测试.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="$(MSBuildThisFileDirectory)..\..\工具\网络\SMB连接测试.exe.config" Link="tools\工具\网络\SMB连接测试.exe.config" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <Content Include="$(MSBuildThisFileDirectory)..\..\工具\网络\SMB连接测试-使用说明.txt" Link="tools\工具\网络\SMB连接测试-使用说明.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+</Project>

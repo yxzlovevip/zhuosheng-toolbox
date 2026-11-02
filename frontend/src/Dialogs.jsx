@@ -1,0 +1,13 @@
+import {useRef,useState} from 'react';
+import {useDialogFocus} from './hooks/useDialogFocus';
+import {ShieldAlert,X} from 'lucide-react';
+export function StartupNotice({onAccept,onExit,busy}) {
+ const accept=useRef(null);
+ const dialog=useDialogFocus(accept);
+ return <div className="modal-backdrop"><section ref={dialog} tabIndex={-1} className="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="startup-title"><div className="dialog-top"><span className="tool-icon"><ShieldAlert size={25} aria-hidden="true"/></span></div><h2 id="startup-title">使用前提示</h2><p className="dialog-caption">每次启动提示一次，使用功能时不再重复确认。</p><div className="dialog-body" tabIndex={0} aria-label="使用注意事项"><h3>系统与数据变更</h3><p>工具箱包含重装系统、磁盘分区、卸载、驱动安装及系统设置工具，可能修改系统、删除数据或要求重启。操作前请备份重要资料，并查看工具详情中的说明和注意事项。</p><h3>浏览器清理与安全设置</h3><p>浏览器配置与推广清理可能删除配置、收藏夹、密码和登录状态，且没有自动备份或撤销。Win10 优化脚本打开后即执行，会关闭防火墙、Defender 和系统更新，并重启资源管理器。关闭 UAC、安全防护等功能会降低系统保护，请按需使用。</p><h3>打开工具后</h3><p>具体操作和结果以原工具及系统显示为准。Windows 或原工具自身的必要确认仍会显示。关闭工具箱会同时结束本次打开的工具，请等待工具操作完成后再退出。</p></div><div className="dialog-buttons"><button className="secondary" onClick={onExit} disabled={busy}>退出软件</button><button ref={accept} className="primary" onClick={onAccept} disabled={busy}>{busy?'正在进入…':'我已了解，进入工具箱'}</button></div></section></div>;
+}
+export function ConfirmDialog({tool,onCancel,onConfirm,busy,newSystem}) {
+ const [checked,setChecked]=useState(false); const cancel=useRef(null);
+ const dialog=useDialogFocus(cancel,()=>{if(!busy)onCancel();});
+ return <div className="modal-backdrop"><section ref={dialog} tabIndex={-1} className="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="confirm-title"><div className="dialog-top"><span className="tool-icon"><ShieldAlert size={25}/></span><button aria-label="关闭确认" disabled={busy} onClick={onCancel}><X size={19}/></button></div><h2 id="confirm-title">{newSystem?"新系统：建议检查驱动":tool.Name}</h2><p className="dialog-caption">操作确认</p><div className="dialog-body">{newSystem?<><h3>系统安装时间</h3><p>{new Date(newSystem.InstalledAt).toLocaleString('zh-CN',{hour12:false})}，在 3 天以内。建议使用驱动总裁检测驱动，按需安装。</p><p>系统升级或镜像部署可能影响此时间，请结合实际情况判断。选择后，本次系统安装不再提示。</p></>:null}<h3>影响范围</h3><p>{tool.Impact}</p><h3>操作准备</h3><p>{tool.Preparation}</p><p className="dialog-restart">重启要求：{tool.Restart}</p>{tool.Id==='uac'?<p>继续后仍需在注册表编辑器中确认导入。</p>:null}</div><label className="checkbox"><input type="checkbox" disabled={busy} checked={checked} onChange={e=>setChecked(e.target.checked)}/>已了解影响，继续操作</label><div className="dialog-buttons"><button ref={cancel} className="secondary" onClick={onCancel} disabled={busy}>{newSystem?"暂不检查":"取消"}</button><button className="primary" disabled={!checked||busy} onClick={onConfirm}>{busy?'正在校验…':newSystem?'打开驱动总裁':'确认并打开'}</button></div></section></div>;
+}

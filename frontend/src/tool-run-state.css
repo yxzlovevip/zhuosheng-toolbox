@@ -1,0 +1,6 @@
+.tool-run-state{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;padding:4px 8px;border-radius:6px;background:var(--raised);color:var(--muted);font-size:12px;line-height:1.5;white-space:nowrap;animation:status-in var(--motion-fast) var(--ease-out)}
+.tool-run-state i{width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}
+.tool-run-state.opening{color:var(--accent);background:var(--accent-soft)}.tool-run-state.opening i{animation:status-pulse 1s ease-in-out infinite}
+.tool-run-state.running{color:var(--mint);background:var(--mint-soft)}.tool-run-state.failed{color:var(--error);background:var(--error-soft)}
+.tool-card>.tool-run-state{margin:0 16px 12px}.detail-run-status{flex-shrink:0}.detail-run-status:not(:empty){margin-bottom:14px}.tool-run-message,.tool-state-error{font-size:13px;line-height:1.7;color:var(--error);overflow-wrap:anywhere;margin-top:8px}.tool-state-error{color:var(--warning)}
+@keyframes status-in{from{opacity:.5}to{opacity:1}}@keyframes status-pulse{50%{opacity:.35}}

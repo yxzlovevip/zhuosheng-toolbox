@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <CzWebRoot Condition="'$(CzWebRoot)'==''">../../assets/web</CzWebRoot>
+  <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+  <Product>卓盛工具箱</Product><Title>卓盛工具箱</Title><Company>卓盛科技</Company><AssemblyName>CZToolbox</AssemblyName><Version>2.0.0</Version><ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>../../assets/toolbox.ico</ApplicationIcon>
+  <PublishSingleFile>true</PublishSingleFile><SelfContained>true</SelfContained><IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><RuntimeIdentifier>win-x64</RuntimeIdentifier><DebugType>none</DebugType>
+ </PropertyGroup>
+ <ItemGroup><ProjectReference Include="../Toolbox.Core/Toolbox.Core.csproj" /><Resource Include="../../assets/toolbox.ico" Link="toolbox.ico" /><EmbeddedResource Include="../../assets/catalog.json" LogicalName="catalog.json" /><EmbeddedResource Include="../../assets/update-public.pem" LogicalName="update-public.pem" /><Content Include="../../assets/update-settings.json" Link="update-settings.json" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" /></ItemGroup>
+ <ItemGroup><Resource Include="../../assets/icons/toolbox-master.png" Link="icons/toolbox-master.png" /></ItemGroup>
+ <ItemGroup>
+  <!-- Preserve catalog-relative paths for both local builds and published bundles.
+       SMB supplies its own content below; deferred raw scripts/information tools stay out. -->
+  <Content Include="../../工具/**/*" Exclude="../../工具/网络/**/*;../../工具/信息查询/**/*;../../工具/开源工具/**/*;../../工具/**/*.bat;../../工具/**/*.com;../../工具/**/CPU-Z-*.exe" Link="tools/工具/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  <Content Include="../../重装/**/*" Link="tools/重装/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+ </ItemGroup>
+ <ItemGroup>
+   <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
+   <Content Include="$(CzWebRoot)/**/*" Link="web/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+ </ItemGroup>
+ <Import Project="../../modules/SmbConnectionTest/Toolbox.SmbConnectionTest.targets" />
+ <Import Project="../../assets/opensource-payload.props" />
+ <ItemGroup><EmbeddedResource Include="Queries/SystemInformation.ps1" LogicalName="SystemInformation.ps1" /></ItemGroup>
+ <ItemGroup><EmbeddedResource Include="../../assets/software-collection.json" LogicalName="software-collection.json" /></ItemGroup>
+  <ItemGroup><Compile Include="../Shared/InstallPathPolicy.cs" Link="Installation/InstallPathPolicy.cs"/></ItemGroup>
+</Project>
+
+
